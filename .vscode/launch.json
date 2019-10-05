@@ -1,0 +1,10 @@
+{
+       "configurations": [
+              {
+                     "type": "java",
+                     "name": "CodeLens (Launch) - BankAccount",
+                     "request": "launch",
+                     "mainClass": "BankAccount"
+              }
+       ]
+}
