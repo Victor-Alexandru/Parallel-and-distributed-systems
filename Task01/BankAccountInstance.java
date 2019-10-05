@@ -1,10 +1,10 @@
+
 /**
  * BankAccountInstance
  */
 import java.util.*;
 import java.util.Arrays;
 import java.util.List;
-
 
 public class BankAccountInstance {
 
@@ -18,24 +18,24 @@ public class BankAccountInstance {
               this.balance = balance;
        }
 
-       public void appendOperationToLog(String operationName, BankAccountInstance b2, Integer sum) {
+       public void appendOperationToLogTransfer(String operationName, BankAccountInstance b2, Integer sum) {
               this.logs.add("Operation" + operationName + " has transferd from " + b2.getAccountName() + " to "
-                            + this.getAccountName() + " the sum of " + sum);
+                            + this.getAccountName() + " the sum of " + sum + '\n');
 
        }
 
-       public void appendOperationToLogGiven(String operationName, BankAccountInstance b2, Integer sum) {
-              this.logs.add("Operation" + operationName + " has given from " + this.getAccountName() + " to "
-                            + b2.getAccountName() + " the sum of " + sum);
+       public void appendOperationToLogDecrement(String operationName, BankAccountInstance b2, Integer sum) {
+              this.logs.add("Operation" + operationName + " has taken from account " + this.getAccountName()
+                            + " the sum of " + sum + " and put to account " + b2.getAccountName() + '\n');
 
        }
 
-       public void addBalance(Integer sum){
-              this.balance +=sum;
+       public void addBalance(Integer sum) {
+              this.balance += sum;
        }
 
-       public void substractBalance(Integer sum){
-              this.balance +=sum;
+       public void substractBalance(Integer sum) {
+              this.balance += sum;
        }
 
        public List<String> getLogs() {

@@ -1,9 +1,15 @@
+
 /**
  * BankAccount
  */
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
+import java.io.File;
+import java.io.FileNotFoundException;
+
 public class BankAccount {
 
-       public static void main(String[] args) {
+       public static void main(String[] args) throws FileNotFoundException,UnsupportedEncodingException{
               BankAccountInstance b1 = new BankAccountInstance("A", 1000);
               BankAccountInstance b2 = new BankAccountInstance("B", 1000);
               Operation op = new Operation(534523);
@@ -24,8 +30,10 @@ public class BankAccount {
                      System.out.println(exception.getMessage());
 
               } finally {
-                     System.out.println(b1.getLogs());
-                     System.out.println(b2.getLogs());
+                     PrintWriter writer = new PrintWriter("the-file-name.txt", "UTF-8");
+                     writer.println(b1.getLogs());
+                     writer.println(b2.getLogs());
+                     writer.close();
 
               }
 
