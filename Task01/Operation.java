@@ -17,9 +17,9 @@ public class Operation {
               return this.uniqueId;
        }
 
-       public void transfer(BankAccountInstance b1, BankAccountInstance b2, Integer sum)  {
+       public void transfer(BankAccountInstance b1, BankAccountInstance b2, Integer sum) {
               if (b1.getBalance() < sum) {
-                     System.out.println("The account " + b1.getAccountName() + " has less money than " + sum);
+                     b1.appendOperationToLogInssufficentFunds(this.uniqueId.toString(), b2, sum);
               } else {
                      b2.appendOperationToLogTransfer(this.uniqueId.toString(), b1, sum);
                      b1.appendOperationToLogDecrement(this.uniqueId.toString(), b2, sum);

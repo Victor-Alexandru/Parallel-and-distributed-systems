@@ -16,7 +16,7 @@ public class BankAccountInstance {
               this.logs = new ArrayList<String>();
               this.accountName = name;
               this.balance = balance;
-              this.logs.add("----------------------"+"\n"+this.accountName+"\n"+"----------------------");
+              this.logs.add(this.accountName + "\n");
        }
 
        public void appendOperationToLogTransfer(String operationName, BankAccountInstance b2, Integer sum) {
@@ -28,6 +28,12 @@ public class BankAccountInstance {
        public void appendOperationToLogDecrement(String operationName, BankAccountInstance b2, Integer sum) {
               this.logs.add("Operation" + operationName + " has taken from account " + this.getAccountName()
                             + " the sum of " + sum + " and put to account " + b2.getAccountName() + '\n');
+
+       }
+
+       public void appendOperationToLogInssufficentFunds(String operationName, BankAccountInstance b2, Integer sum) {
+              this.logs.add("Insufficent money " + sum + " to transfer from " + this.getAccountName() + " to "
+                            + b2.getAccountName() + '\n');
 
        }
 

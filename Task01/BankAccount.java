@@ -19,7 +19,7 @@ public class BankAccount {
               for (char alphabet = 'A'; alphabet <= 'Z'; alphabet++) {
                      BankAccount.bankAccounts.add(new BankAccountInstance(String.valueOf(alphabet), 1000));
               }
-              for (int i = 1; i <= 100; i++) {
+              for (int i = 1; i <= 10000; i++) {
                      Random rand = new Random();
                      BankAccountInstance b1 = BankAccount.bankAccounts
                                    .get(rand.nextInt(BankAccount.bankAccounts.size()));
@@ -27,7 +27,8 @@ public class BankAccount {
                                    .get(rand.nextInt(BankAccount.bankAccounts.size()));
                      if (b1 != b2) {
                             int randInt = rand.nextInt(100000000);
-                            BankAccount.threadOperations.add(new ThreadOperation(b1, b2, 280, randInt));
+                            int transferSum = rand.nextInt(5500);
+                            BankAccount.threadOperations.add(new ThreadOperation(b1, b2, transferSum, randInt));
 
                      }
 
