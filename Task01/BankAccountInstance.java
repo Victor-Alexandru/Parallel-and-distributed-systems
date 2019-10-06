@@ -16,6 +16,7 @@ public class BankAccountInstance {
               this.logs = new ArrayList<String>();
               this.accountName = name;
               this.balance = balance;
+              this.logs.add("----------------------"+"\n"+this.accountName+"\n"+"----------------------");
        }
 
        public void appendOperationToLogTransfer(String operationName, BankAccountInstance b2, Integer sum) {

@@ -13,12 +13,16 @@ public class Operation {
               this.uniqueId += 1;
        }
 
-       public void transfer(BankAccountInstance b1, BankAccountInstance b2, Integer sum) throws Exception {
+       public Integer getUniqueId() {
+              return this.uniqueId;
+       }
+
+       public void transfer(BankAccountInstance b1, BankAccountInstance b2, Integer sum)  {
               if (b1.getBalance() < sum) {
-                     throw new Exception("The account " + b1.getAccountName() + " has less money than " + sum);
+                     System.out.println("The account " + b1.getAccountName() + " has less money than " + sum);
               } else {
                      b2.appendOperationToLogTransfer(this.uniqueId.toString(), b1, sum);
-                     b1.appendOperationToLogDecrement(this.uniqueId.toString(),b2, sum);
+                     b1.appendOperationToLogDecrement(this.uniqueId.toString(), b2, sum);
                      b1.substractBalance(sum);
                      b2.addBalance(sum);
                      this.incrementUniqueId();

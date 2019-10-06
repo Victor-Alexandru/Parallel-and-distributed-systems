@@ -4,35 +4,52 @@
  */
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 import java.io.File;
 import java.io.FileNotFoundException;
 
 public class BankAccount {
 
-       public static void main(String[] args) throws FileNotFoundException,UnsupportedEncodingException{
-              BankAccountInstance b1 = new BankAccountInstance("A", 1000);
-              BankAccountInstance b2 = new BankAccountInstance("B", 1000);
+       public static List<BankAccountInstance> bankAccounts = new ArrayList<BankAccountInstance>();
+       public static List<ThreadOperation> threadOperations = new ArrayList<ThreadOperation>();
+
+       public static void init() {
+              for (char alphabet = 'A'; alphabet <= 'Z'; alphabet++) {
+                     BankAccount.bankAccounts.add(new BankAccountInstance(String.valueOf(alphabet), 1000));
+              }
+              for (int i = 1; i <= 100; i++) {
+                     Random rand = new Random();
+                     BankAccountInstance b1 = BankAccount.bankAccounts
+                                   .get(rand.nextInt(BankAccount.bankAccounts.size()));
+                     BankAccountInstance b2 = BankAccount.bankAccounts
+                                   .get(rand.nextInt(BankAccount.bankAccounts.size()));
+                     if (b1 != b2) {
+                            int randInt = rand.nextInt(100000000);
+                            BankAccount.threadOperations.add(new ThreadOperation(b1, b2, 280, randInt));
+
+                     }
+
+              }
+
+       }
+
+       public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
               Operation op = new Operation(534523);
               try {
-
-                     op.transfer(b1, b2, 100);
-                     op.transfer(b1, b2, 100);
-                     op.transfer(b1, b2, 100);
-                     op.transfer(b1, b2, 100);
-                     op.transfer(b2, b1, 50);
-                     op.transfer(b2, b1, 50);
-                     op.transfer(b2, b1, 50);
-                     op.transfer(b2, b1, 50);
-                     op.transfer(b2, b1, 50);
+                     BankAccount.init();
+                     BankAccount.threadOperations.forEach(r -> r.run());
               }
 
               catch (Exception exception) {
                      System.out.println(exception.getMessage());
 
               } finally {
-                     PrintWriter writer = new PrintWriter("the-file-name.txt", "UTF-8");
-                     writer.println(b1.getLogs());
-                     writer.println(b2.getLogs());
+                     PrintWriter writer = new PrintWriter("result.txt", "UTF-8");
+                     BankAccount.bankAccounts.forEach((b) -> {
+                            writer.println(b.getLogs());
+                     });
                      writer.close();
 
               }
