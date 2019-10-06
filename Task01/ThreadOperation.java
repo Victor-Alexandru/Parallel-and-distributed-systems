@@ -1,11 +1,12 @@
 import java.util.Random;
 import java.util.concurrent.Semaphore;
+import java.io.PrintWriter;
 
 /**
  * ThreadOperation
  */
 public class ThreadOperation implements Runnable {
-
+        
        BankAccountInstance b1;
        BankAccountInstance b2;
        Integer transferSum;
@@ -30,35 +31,23 @@ public class ThreadOperation implements Runnable {
        @Override
        public void run() {
               // TODO Auto-generated method stub
-              try {
-                     semaphore.acquire();
-                     System.out.println("Thread " + this.threadName + ": Operation "
-                                   + this.transferOperation.getUniqueId() + " on accounts " + this.b1.getAccountName()+ ":" + this.b2.getAccountName() + " with the sum " + this.transferSum);
-                     this.transferOperation.transfer(this.b1, this.b2, this.transferSum);
-                     semaphore.release();
-              } catch (InterruptedException e) {
-                     // TODO Auto-generated catch block
-                     e.printStackTrace();
-              }
-
-              // Random r = new Random();
-              // // if (r.nextInt(1000) % 2 == 0) {
-              // // try {
-              // // System.out.println("Thread "+this.threadName+" is stopped for 2 seconds
-              // --");
-              // // Thread.sleep(2000);
-              // // } catch (InterruptedException e) {
-              // // // TODO Auto-generated catch block
-              // // e.printStackTrace();
-              // // }
-              // // }
+              // try {  
+              //        semaphore.acquire();
+              //        System.out.println("--with mutexex--Thread " + this.threadName + ": Operation "
+              //                      + this.transferOperation.getUniqueId() + " on accounts " + this.b1.getAccountName()+ ":" + this.b2.getAccountName() + " with the sum " + this.transferSum);
+              //        this.transferOperation.transfer(this.b1, this.b2, this.transferSum);
+              //        semaphore.release();
+              // } catch (InterruptedException e) {
+              //        // TODO Auto-generated catch block
+              //        e.printStackTrace();
+              // }
 
               // without mutex
-              // System.out.println("Thread " + this.threadName + ": Operation " +
-              // this.transferOperation.getUniqueId()
-              // + " on accounts " + this.b1.getAccountName() + ":" + this.b2.getAccountName()
-              // + " with the sum " + this.transferSum);
-              // this.transferOperation.transfer(this.b1, this.b2, this.transferSum);
+              System.out.println("--no mutexex--Thread " + this.threadName + ": Operation " +
+              this.transferOperation.getUniqueId()
+              + " on accounts " + this.b1.getAccountName() + ":" + this.b2.getAccountName()
+              + " with the sum " + this.transferSum );
+              this.transferOperation.transfer(this.b1, this.b2, this.transferSum);
        }
 
 }

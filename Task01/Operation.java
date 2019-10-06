@@ -21,10 +21,10 @@ public class Operation {
               if (b1.getBalance() < sum) {
                      b1.appendOperationToLogInssufficentFunds(this.uniqueId.toString(), b2, sum);
               } else {
-                     b2.appendOperationToLogTransfer(this.uniqueId.toString(), b1, sum);
-                     b1.appendOperationToLogDecrement(this.uniqueId.toString(), b2, sum);
                      b1.substractBalance(sum);
                      b2.addBalance(sum);
+                     b2.appendOperationToLogTransfer(this.uniqueId.toString(), b1, sum);
+                     b1.appendOperationToLogDecrement(this.uniqueId.toString(), b2, sum);
                      this.incrementUniqueId();
               }
 

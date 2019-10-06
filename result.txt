@@ -1,107 +1,504 @@
 [A
-, Operation936291 has transferd from P to A the sum of 24
-, Operation8563932 has taken from account A the sum of 207 and put to account M
-, Operation26776668 has transferd from P to A the sum of 614
+, Operation73164893 has taken from account A the sum of 1000 and put to account B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
+, Insufficent money 1000 to transfer from A to B ----remaining money 0
 ]
 [B
-, Operation66694035 has transferd from G to B the sum of 514
-, Insufficent money 2793 to transfer from B to L
-, Insufficent money 3063 to transfer from B to N
-]
-[C
-, Insufficent money 1832 to transfer from C to Y
-, Operation32264122 has transferd from T to C the sum of 192
-, Operation15017924 has taken from account C the sum of 579 and put to account F
-, Insufficent money 3627 to transfer from C to J
-]
-[D
-, Operation97686714 has taken from account D the sum of 87 and put to account T
-, Insufficent money 1826 to transfer from D to T
-]
-[E
-]
-[F
-, Insufficent money 1059 to transfer from F to I
-, Insufficent money 1322 to transfer from F to V
-, Insufficent money 5354 to transfer from F to A
-, Operation15017924 has transferd from C to F the sum of 579
-]
-[G
-, Operation66694035 has taken from account G the sum of 514 and put to account B
-, Operation6385629 has transferd from K to G the sum of 401
-, Operation239801 has transferd from X to G the sum of 782
-, Operation77937383 has taken from account G the sum of 796 and put to account T
-]
-[H
-]
-[I
-, Insufficent money 4185 to transfer from I to J
-]
-[J
-, Insufficent money 2787 to transfer from J to D
-]
-[K
-, Operation6385629 has taken from account K the sum of 401 and put to account G
-, Insufficent money 4629 to transfer from K to E
-, Insufficent money 2515 to transfer from K to P
-, Operation1192545 has transferd from S to K the sum of 315
-]
-[L
-, Operation94986537 has taken from account L the sum of 834 and put to account Y
-, Operation66685859 has taken from account L the sum of 138 and put to account O
-]
-[M
-, Insufficent money 1266 to transfer from M to P
-, Insufficent money 4158 to transfer from M to O
-, Operation8563932 has transferd from A to M the sum of 207
-, Insufficent money 2462 to transfer from M to A
-]
-[N
-, Insufficent money 3650 to transfer from N to A
-]
-[O
-, Operation66685859 has transferd from L to O the sum of 138
-, Insufficent money 3172 to transfer from O to Y
-]
-[P
-, Operation936291 has taken from account P the sum of 24 and put to account A
-, Operation26776668 has taken from account P the sum of 614 and put to account A
-, Insufficent money 5011 to transfer from P to E
-]
-[Q
-, Insufficent money 4937 to transfer from Q to C
-]
-[R
-, Insufficent money 1527 to transfer from R to X
-]
-[S
-, Operation1192545 has taken from account S the sum of 315 and put to account K
-]
-[T
-, Operation6492170 has transferd from Y to T the sum of 884
-, Operation32264122 has taken from account T the sum of 192 and put to account C
-, Insufficent money 5211 to transfer from T to J
-, Operation97686714 has transferd from D to T the sum of 87
-, Operation77937383 has transferd from G to T the sum of 796
-]
-[U
-, Insufficent money 2465 to transfer from U to Z
-]
-[V
-, Insufficent money 4753 to transfer from V to K
-]
-[W
-]
-[X
-, Insufficent money 1783 to transfer from X to K
-, Insufficent money 3700 to transfer from X to H
-, Operation239801 has taken from account X the sum of 782 and put to account G
-]
-[Y
-, Insufficent money 4996 to transfer from Y to E
-, Operation6492170 has taken from account Y the sum of 884 and put to account T
-, Operation94986537 has transferd from L to Y the sum of 834
-]
-[Z
-, Insufficent money 1255 to transfer from Z to O
+, Operation73164893 has transferd from A to B the sum of 1000 ----remaining money 2000
 ]

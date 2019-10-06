@@ -21,19 +21,19 @@ public class BankAccountInstance {
 
        public void appendOperationToLogTransfer(String operationName, BankAccountInstance b2, Integer sum) {
               this.logs.add("Operation" + operationName + " has transferd from " + b2.getAccountName() + " to "
-                            + this.getAccountName() + " the sum of " + sum + '\n');
+                            + this.getAccountName() + " the sum of " + sum +  " ----remaining money "+this.getBalance()+'\n');
 
        }
 
        public void appendOperationToLogDecrement(String operationName, BankAccountInstance b2, Integer sum) {
               this.logs.add("Operation" + operationName + " has taken from account " + this.getAccountName()
-                            + " the sum of " + sum + " and put to account " + b2.getAccountName() + '\n');
+                            + " the sum of " + sum + " and put to account " + b2.getAccountName() +  " ----remaining money "+this.getBalance()+ '\n');
 
        }
 
        public void appendOperationToLogInssufficentFunds(String operationName, BankAccountInstance b2, Integer sum) {
               this.logs.add("Insufficent money " + sum + " to transfer from " + this.getAccountName() + " to "
-                            + b2.getAccountName() + '\n');
+                            + b2.getAccountName() + " ----remaining money "+this.getBalance()+ '\n');
 
        }
 
@@ -42,7 +42,7 @@ public class BankAccountInstance {
        }
 
        public void substractBalance(Integer sum) {
-              this.balance += sum;
+              this.balance -= sum;
        }
 
        public List<String> getLogs() {

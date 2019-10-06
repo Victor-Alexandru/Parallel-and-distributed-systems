@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.io.File;
 import java.io.FileNotFoundException;
 
@@ -33,7 +34,7 @@ public class BankAccount {
 
               List<String> threadsName = BankAccount
                             .getThreadsName("D:\\Paralel and Distributed Systems\\Task01\\threadNames.txt");
-              for (char alphabet = 'A'; alphabet <= 'Z'; alphabet++) {
+              for (char alphabet = 'A'; alphabet <= 'B'; alphabet++) {
                      BankAccount.bankAccounts.add(new BankAccountInstance(String.valueOf(alphabet), 1000));
               }
               for (int i = 1; i <= numberOfOperations; i++) {
@@ -45,8 +46,13 @@ public class BankAccount {
                      if (b1 != b2) {
                             int randInt = rand.nextInt(100000000);
                             int transferSum = rand.nextInt(5500);
+
+                            // BankAccount.threadOperations
+                            // .add(new ThreadOperation(threadsName.get(i), b1, b2, 1000, randInt));
+
+                            // hard-coded
                             BankAccount.threadOperations
-                                          .add(new ThreadOperation(threadsName.get(i), b1, b2, transferSum, randInt));
+                                          .add(new ThreadOperation(threadsName.get(i),BankAccount.bankAccounts.get(0),BankAccount.bankAccounts.get(1), 1000, randInt));
 
                      }
 
@@ -57,31 +63,31 @@ public class BankAccount {
        public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
               Operation op = new Operation(534523);
               try {
-                     BankAccount.init(100);
+                     BankAccount.init(1000);
 
-                     ExecutorService te = Executors.newCachedThreadPool();
-                     long startTimeConcurrentExecution = System.nanoTime();
-                     BankAccount.threadOperations.forEach(r -> te.execute(r));
-                     te.shutdown();
-                     long endTimeConcurrentExecution = System.nanoTime();
-                     long duration = (endTimeConcurrentExecution - startTimeConcurrentExecution);
+                     if (true) {
+                            ExecutorService executorService = Executors.newFixedThreadPool(25);
+                            BankAccount.threadOperations.forEach(r -> executorService.execute(r));
+                            executorService.shutdown();
+                     } else {
+                            long startTime = System.nanoTime();
+                            BankAccount.threadOperations.forEach(r -> r.run());
+                            long endTime = System.nanoTime();
+                            long durationNC = (endTime - startTime);
+                     }
 
-                     System.out.println("------------------------------");
+                     // System.out.println("Total execution time concurrent " + duration);
+                     // System.out.println("Total execution time not concurrent " + durationNC);
 
-
-                     // long startTime = System.nanoTime();
-                     // BankAccount.threadOperations.forEach(r -> r.run());
-                     // long endTime = System.nanoTime();
-                     // long durationNC = (endTime - startTime);
+                     System.out.println("Programul o sa adoarma");
+                     TimeUnit.SECONDS.sleep(10);
+                     System.out.println("Programul s-a trezit");
 
                      PrintWriter writer = new PrintWriter("result.txt", "UTF-8");
                      BankAccount.bankAccounts.forEach((b) -> {
                             writer.println(b.getLogs());
                      });
                      writer.close();
-
-                     System.out.println("Total execution time concurrent " + duration);
-                     // System.out.println("Total execution time not concurrent " + durationNC);
 
               }
 
