@@ -11,8 +11,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -51,10 +53,14 @@ public class BankAccount {
                             // .add(new ThreadOperation(threadsName.get(i), b1, b2, 1000, randInt));
 
                             // hard-coded
-                            BankAccount.threadOperations
-                                          .add(new ThreadOperation(threadsName.get(i),BankAccount.bankAccounts.get(0),BankAccount.bankAccounts.get(1), 1000, randInt));
 
                      }
+
+                     int randInt = rand.nextInt(100000000);
+                     int transferSum = rand.nextInt(5500);
+
+                     BankAccount.threadOperations.add(new ThreadOperation(threadsName.get(i),
+                                   BankAccount.bankAccounts.get(0), BankAccount.bankAccounts.get(1), 1000, randInt));
 
               }
 
@@ -63,24 +69,30 @@ public class BankAccount {
        public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
               Operation op = new Operation(534523);
               try {
-                     BankAccount.init(1000);
+                     BankAccount.init(10000);
 
-                     if (true) {
-                            ExecutorService executorService = Executors.newFixedThreadPool(25);
+                     boolean flag = true;
+
+                     if (flag) {
+                            ExecutorService executorService = Executors.newFixedThreadPool(100);
                             BankAccount.threadOperations.forEach(r -> executorService.execute(r));
                             executorService.shutdown();
                      } else {
                             long startTime = System.nanoTime();
-                            BankAccount.threadOperations.forEach(r -> r.run());
+                            BankAccount.threadOperations.forEach(r -> {
+                                   r.run();
+
+                            });
                             long endTime = System.nanoTime();
                             long durationNC = (endTime - startTime);
+                            System.out.println("Total execution time not concurrent " + durationNC);
+
                      }
 
                      // System.out.println("Total execution time concurrent " + duration);
-                     // System.out.println("Total execution time not concurrent " + durationNC);
 
-                     System.out.println("Programul o sa adoarma");
-                     TimeUnit.SECONDS.sleep(10);
+                     // System.out.println("Programul o sa adoarma");
+                     TimeUnit.SECONDS.sleep(5);
                      System.out.println("Programul s-a trezit");
 
                      PrintWriter writer = new PrintWriter("result.txt", "UTF-8");
