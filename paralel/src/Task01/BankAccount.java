@@ -23,8 +23,8 @@ import java.util.Scanner;
 
 public class BankAccount {
 
-       public static List<BankAccountInstance> bankAccounts = new ArrayList<BankAccountInstance>();
-       public static List<ThreadOperation> threadOperations = new ArrayList<ThreadOperation>();
+       public static List<BankAccountInstance> bankAccounts = new ArrayList<>();
+       public static List<ThreadOperation> threadOperations = new ArrayList<>();
 
        public static List<String> getThreadsName(String fileName) throws Exception {
               String data = "";
@@ -36,8 +36,13 @@ public class BankAccount {
 
        public static void init(Integer numberOfOperations,Boolean useMutexex) throws Exception {
 
+//              List<String> threadsName = BankAccount
+//                            .getThreadsName("C:\\Users\\VictorViena\\IdeaProjects\\paralel\\src\\Task01\\threadNames.txt");
+
               List<String> threadsName = BankAccount
-                            .getThreadsName("C:\\Users\\VictorViena\\IdeaProjects\\paralel\\src\\Task01\\threadNames.txt");
+                      .getThreadsName("D:\\Paralel and Distributed Systems\\paralel\\src\\Task01\\threadNames.txt");
+
+
               for (char alphabet = 'A'; alphabet <= 'Z'; alphabet++) {
                      BankAccount.bankAccounts.add(new BankAccountInstance(String.valueOf(alphabet), 100000));
               }
@@ -52,7 +57,7 @@ public class BankAccount {
                             int transferSum = rand.nextInt(5500);
 
                              BankAccount.threadOperations
-                             .add(new ThreadOperation(threadsName.get(i), b1, b2, 1000, randInt,useMutexex));
+                             .add(new ThreadOperation(threadsName.get(i), b1, b2, transferSum, randInt,useMutexex));
 
                      }
               }

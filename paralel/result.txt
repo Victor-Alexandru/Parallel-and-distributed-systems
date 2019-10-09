@@ -1,402 +1,340 @@
 [A
-, Operation93053765 has taken from account A the sum of 1000 and put to account I ----remaining money 99000
-, Operation36753280 has taken from account A the sum of 1000 and put to account V ----remaining money 98000
-, Operation17706433 has transferd from G to A the sum of 1000 ----remaining money 99000
-, Operation9997177 has transferd from X to A the sum of 1000 ----remaining money 100000
-, Operation27919587 has taken from account A the sum of 1000 and put to account I ----remaining money 99000
-, Operation17085019 has taken from account A the sum of 1000 and put to account Z ----remaining money 98000
-, Operation38255223 has taken from account A the sum of 1000 and put to account S ----remaining money 97000
-, Operation88305872 has transferd from I to A the sum of 1000 ----remaining money 98000
-, Operation23864216 has taken from account A the sum of 1000 and put to account F ----remaining money 97000
+, Operation55094988 has taken from account A the sum of 1000 and put to account R ----remaining money 99000
+, Operation11617717 has transferd from L to A the sum of 1000 ----remaining money 100000
+, Operation53484808 has taken from account A the sum of 1000 and put to account G ----remaining money 99000
+, Operation93005119 has taken from account A the sum of 1000 and put to account U ----remaining money 98000
+, Operation23389370 has taken from account A the sum of 1000 and put to account C ----remaining money 97000
+, Operation54685192 has transferd from O to A the sum of 1000 ----remaining money 98000
+, Operation38781187 has transferd from X to A the sum of 1000 ----remaining money 99000
+, Operation59488183 has taken from account A the sum of 1000 and put to account B ----remaining money 98000
+, Operation12020721 has taken from account A the sum of 1000 and put to account E ----remaining money 97000
+, Operation42652127 has transferd from S to A the sum of 1000 ----remaining money 98000
+, Operation44409063 has taken from account A the sum of 1000 and put to account G ----remaining money 97000
+, Operation91983759 has taken from account A the sum of 1000 and put to account C ----remaining money 96000
 ]
 [B
-, Operation12082330 has taken from account B the sum of 1000 and put to account H ----remaining money 99000
-, Operation44821197 has taken from account B the sum of 1000 and put to account U ----remaining money 98000
-, Operation95986449 has transferd from H to B the sum of 1000 ----remaining money 99000
-, Operation89438391 has taken from account B the sum of 1000 and put to account Z ----remaining money 98000
-, Operation62004171 has transferd from I to B the sum of 1000 ----remaining money 99000
-, Operation34843397 has taken from account B the sum of 1000 and put to account Y ----remaining money 98000
-, Operation79601802 has taken from account B the sum of 1000 and put to account R ----remaining money 97000
-, Operation64963610 has taken from account B the sum of 1000 and put to account E ----remaining money 96000
-, Operation3458788 has transferd from S to B the sum of 1000 ----remaining money 97000
-, Operation87324214 has taken from account B the sum of 1000 and put to account W ----remaining money 96000
-, Operation26851261 has taken from account B the sum of 1000 and put to account P ----remaining money 95000
-, Operation56694928 has taken from account B the sum of 1000 and put to account C ----remaining money 94000
-, Operation50883040 has taken from account B the sum of 1000 and put to account G ----remaining money 93000
-, Operation46941738 has taken from account B the sum of 1000 and put to account O ----remaining money 92000
-, Operation70659808 has transferd from T to B the sum of 1000 ----remaining money 93000
-, Operation41769146 has transferd from C to B the sum of 1000 ----remaining money 94000
-, Operation77318896 has transferd from D to B the sum of 1000 ----remaining money 95000
+, Operation24930188 has transferd from V to B the sum of 1000 ----remaining money 101000
+, Operation874677 has transferd from J to B the sum of 1000 ----remaining money 102000
+, Operation48050352 has taken from account B the sum of 1000 and put to account S ----remaining money 101000
+, Operation63897443 has taken from account B the sum of 1000 and put to account P ----remaining money 100000
+, Operation64180402 has taken from account B the sum of 1000 and put to account U ----remaining money 99000
+, Operation59488183 has transferd from A to B the sum of 1000 ----remaining money 100000
+, Operation57422211 has taken from account B the sum of 1000 and put to account W ----remaining money 99000
+, Operation77246731 has transferd from F to B the sum of 1000 ----remaining money 100000
+, Operation89313679 has taken from account B the sum of 1000 and put to account Q ----remaining money 99000
 ]
 [C
-, Operation66538681 has taken from account C the sum of 1000 and put to account F ----remaining money 99000
-, Operation78075637 has taken from account C the sum of 1000 and put to account S ----remaining money 98000
-, Operation58962562 has taken from account C the sum of 1000 and put to account R ----remaining money 97000
-, Operation55324011 has taken from account C the sum of 1000 and put to account R ----remaining money 96000
-, Operation76152464 has taken from account C the sum of 1000 and put to account H ----remaining money 95000
-, Operation65256 has transferd from Y to C the sum of 1000 ----remaining money 96000
-, Operation3413051 has transferd from G to C the sum of 1000 ----remaining money 97000
-, Operation74690386 has taken from account C the sum of 1000 and put to account V ----remaining money 96000
-, Operation93102996 has transferd from K to C the sum of 1000 ----remaining money 97000
-, Operation44617395 has transferd from O to C the sum of 1000 ----remaining money 98000
-, Operation82019497 has taken from account C the sum of 1000 and put to account Z ----remaining money 97000
-, Operation56694928 has transferd from B to C the sum of 1000 ----remaining money 98000
-, Operation41769146 has taken from account C the sum of 1000 and put to account B ----remaining money 97000
-, Operation12398375 has taken from account C the sum of 1000 and put to account Z ----remaining money 96000
-, Operation25349313 has taken from account C the sum of 1000 and put to account L ----remaining money 95000
+, Operation77037026 has taken from account C the sum of 1000 and put to account N ----remaining money 99000
+, Operation21045297 has taken from account C the sum of 1000 and put to account O ----remaining money 98000
+, Operation72311691 has taken from account C the sum of 1000 and put to account G ----remaining money 97000
+, Operation8253473 has taken from account C the sum of 1000 and put to account V ----remaining money 96000
+, Operation42579687 has transferd from Y to C the sum of 1000 ----remaining money 97000
+, Operation23389370 has transferd from A to C the sum of 1000 ----remaining money 98000
+, Operation8103254 has transferd from J to C the sum of 1000 ----remaining money 99000
+, Operation95914699 has taken from account C the sum of 1000 and put to account R ----remaining money 98000
+, Operation68326986 has transferd from P to C the sum of 1000 ----remaining money 99000
+, Operation33765072 has transferd from F to C the sum of 1000 ----remaining money 100000
+, Operation46158013 has taken from account C the sum of 1000 and put to account Q ----remaining money 99000
+, Operation91983759 has transferd from A to C the sum of 1000 ----remaining money 100000
 ]
 [D
-, Operation51122224 has taken from account D the sum of 1000 and put to account E ----remaining money 99000
-, Operation68180644 has taken from account D the sum of 1000 and put to account V ----remaining money 98000
-, Operation60650450 has transferd from O to D the sum of 1000 ----remaining money 99000
-, Operation60139567 has taken from account D the sum of 1000 and put to account W ----remaining money 98000
-, Operation40844692 has taken from account D the sum of 1000 and put to account G ----remaining money 97000
-, Operation41380155 has taken from account D the sum of 1000 and put to account K ----remaining money 96000
-, Operation24451852 has transferd from P to D the sum of 1000 ----remaining money 97000
-, Operation42677050 has taken from account D the sum of 1000 and put to account I ----remaining money 96000
-, Operation76497621 has taken from account D the sum of 1000 and put to account G ----remaining money 95000
-, Operation714404 has transferd from Z to D the sum of 1000 ----remaining money 96000
-, Operation27917101 has transferd from N to D the sum of 1000 ----remaining money 97000
-, Operation21409150 has taken from account D the sum of 1000 and put to account H ----remaining money 96000
-, Operation77318896 has taken from account D the sum of 1000 and put to account B ----remaining money 95000
-, Operation73333186 has taken from account D the sum of 1000 and put to account M ----remaining money 94000
+, Operation60337536 has taken from account D the sum of 1000 and put to account S ----remaining money 99000
+, Operation93132379 has taken from account D the sum of 1000 and put to account H ----remaining money 98000
+, Operation81850177 has taken from account D the sum of 1000 and put to account Q ----remaining money 97000
+, Operation67053905 has taken from account D the sum of 1000 and put to account U ----remaining money 96000
+, Operation81571307 has taken from account D the sum of 1000 and put to account K ----remaining money 95000
+, Operation39735605 has transferd from Z to D the sum of 1000 ----remaining money 96000
+, Operation95714692 has taken from account D the sum of 1000 and put to account I ----remaining money 95000
+, Operation26506 has transferd from P to D the sum of 1000 ----remaining money 96000
+, Operation86762653 has transferd from Z to D the sum of 1000 ----remaining money 97000
+, Operation30499388 has taken from account D the sum of 1000 and put to account O ----remaining money 96000
+, Operation28301934 has transferd from E to D the sum of 1000 ----remaining money 97000
+, Operation83930147 has taken from account D the sum of 1000 and put to account M ----remaining money 96000
+, Operation1195529 has taken from account D the sum of 1000 and put to account I ----remaining money 95000
+, Operation25560843 has transferd from W to D the sum of 1000 ----remaining money 96000
 ]
 [E
-, Operation31273041 has taken from account E the sum of 1000 and put to account Y ----remaining money 99000
-, Operation51122224 has transferd from D to E the sum of 1000 ----remaining money 100000
-, Operation44481525 has transferd from K to E the sum of 1000 ----remaining money 101000
-, Operation22572502 has transferd from X to E the sum of 1000 ----remaining money 102000
-, Operation36424739 has transferd from J to E the sum of 1000 ----remaining money 103000
-, Operation44974257 has taken from account E the sum of 1000 and put to account T ----remaining money 102000
-, Operation17554715 has transferd from M to E the sum of 1000 ----remaining money 103000
-, Operation82620199 has taken from account E the sum of 1000 and put to account L ----remaining money 102000
-, Operation81611163 has taken from account E the sum of 1000 and put to account Q ----remaining money 101000
-, Operation74498754 has transferd from P to E the sum of 1000 ----remaining money 102000
-, Operation64963610 has transferd from B to E the sum of 1000 ----remaining money 103000
-, Operation67011342 has transferd from F to E the sum of 1000 ----remaining money 104000
-, Operation49527427 has transferd from W to E the sum of 1000 ----remaining money 105000
-, Operation14634961 has taken from account E the sum of 1000 and put to account O ----remaining money 104000
-, Operation79444041 has taken from account E the sum of 1000 and put to account G ----remaining money 103000
-, Operation93779681 has taken from account E the sum of 1000 and put to account W ----remaining money 102000
-, Operation68632237 has transferd from P to E the sum of 1000 ----remaining money 103000
+, Operation37712471 has transferd from I to E the sum of 1000 ----remaining money 101000
+, Operation8947272 has taken from account E the sum of 1000 and put to account V ----remaining money 100000
+, Operation52791916 has transferd from P to E the sum of 1000 ----remaining money 101000
+, Operation11148525 has transferd from G to E the sum of 1000 ----remaining money 102000
+, Operation71457817 has transferd from X to E the sum of 1000 ----remaining money 103000
+, Operation96246983 has taken from account E the sum of 1000 and put to account W ----remaining money 102000
+, Operation12020721 has transferd from A to E the sum of 1000 ----remaining money 103000
+, Operation48949279 has transferd from T to E the sum of 1000 ----remaining money 104000
+, Operation1952967 has taken from account E the sum of 1000 and put to account O ----remaining money 103000
+, Operation28301934 has taken from account E the sum of 1000 and put to account D ----remaining money 102000
+, Operation51918811 has taken from account E the sum of 1000 and put to account V ----remaining money 101000
+, Operation69893664 has transferd from J to E the sum of 1000 ----remaining money 102000
+, Operation72849893 has taken from account E the sum of 1000 and put to account M ----remaining money 101000
+, Operation81439753 has taken from account E the sum of 1000 and put to account X ----remaining money 100000
 ]
 [F
-, Operation66538681 has transferd from C to F the sum of 1000 ----remaining money 101000
-, Operation84391093 has transferd from L to F the sum of 1000 ----remaining money 102000
-, Operation89977275 has transferd from O to F the sum of 1000 ----remaining money 103000
-, Operation93126658 has taken from account F the sum of 1000 and put to account K ----remaining money 102000
-, Operation20991979 has taken from account F the sum of 1000 and put to account S ----remaining money 101000
-, Operation84850115 has taken from account F the sum of 1000 and put to account I ----remaining money 100000
-, Operation67011342 has taken from account F the sum of 1000 and put to account E ----remaining money 99000
-, Operation35777477 has taken from account F the sum of 1000 and put to account L ----remaining money 98000
-, Operation23864216 has transferd from A to F the sum of 1000 ----remaining money 99000
-, Operation15786391 has taken from account F the sum of 1000 and put to account S ----remaining money 98000
-, Operation66613806 has transferd from G to F the sum of 1000 ----remaining money 99000
-, Operation84024185 has transferd from Z to F the sum of 1000 ----remaining money 100000
+, Operation94150291 has transferd from G to F the sum of 1000 ----remaining money 101000
+, Operation41461331 has taken from account F the sum of 1000 and put to account U ----remaining money 100000
+, Operation55953928 has taken from account F the sum of 1000 and put to account N ----remaining money 99000
+, Operation90859812 has taken from account F the sum of 1000 and put to account N ----remaining money 98000
+, Operation4544873 has transferd from K to F the sum of 1000 ----remaining money 99000
+, Operation98255776 has taken from account F the sum of 1000 and put to account X ----remaining money 98000
+, Operation5757880 has taken from account F the sum of 1000 and put to account K ----remaining money 97000
+, Operation77246731 has taken from account F the sum of 1000 and put to account B ----remaining money 96000
+, Operation80162163 has taken from account F the sum of 1000 and put to account V ----remaining money 95000
+, Operation29507875 has taken from account F the sum of 1000 and put to account I ----remaining money 94000
+, Operation26973766 has transferd from W to F the sum of 1000 ----remaining money 95000
+, Operation33765072 has taken from account F the sum of 1000 and put to account C ----remaining money 94000
 ]
 [G
-, Operation42046421 has taken from account G the sum of 1000 and put to account N ----remaining money 99000
-, Operation965063 has taken from account G the sum of 1000 and put to account H ----remaining money 98000
-, Operation17706433 has taken from account G the sum of 1000 and put to account A ----remaining money 97000
-, Operation29296635 has taken from account G the sum of 1000 and put to account K ----remaining money 96000
-, Operation35810487 has taken from account G the sum of 1000 and put to account W ----remaining money 95000
-, Operation40844692 has transferd from D to G the sum of 1000 ----remaining money 96000
-, Operation3413051 has taken from account G the sum of 1000 and put to account C ----remaining money 95000
-, Operation2194663 has taken from account G the sum of 1000 and put to account Q ----remaining money 94000
-, Operation79444041 has transferd from E to G the sum of 1000 ----remaining money 95000
-, Operation10266616 has taken from account G the sum of 1000 and put to account L ----remaining money 94000
-, Operation50883040 has transferd from B to G the sum of 1000 ----remaining money 95000
-, Operation67996733 has transferd from I to G the sum of 1000 ----remaining money 96000
-, Operation41752182 has transferd from W to G the sum of 1000 ----remaining money 97000
-, Operation76497621 has transferd from D to G the sum of 1000 ----remaining money 98000
-, Operation50160987 has taken from account G the sum of 1000 and put to account P ----remaining money 97000
-, Operation66613806 has taken from account G the sum of 1000 and put to account F ----remaining money 96000
+, Operation94150291 has taken from account G the sum of 1000 and put to account F ----remaining money 99000
+, Operation72311691 has transferd from C to G the sum of 1000 ----remaining money 100000
+, Operation65193834 has taken from account G the sum of 1000 and put to account W ----remaining money 99000
+, Operation75859646 has taken from account G the sum of 1000 and put to account Z ----remaining money 98000
+, Operation632825 has taken from account G the sum of 1000 and put to account M ----remaining money 97000
+, Operation46839532 has transferd from V to G the sum of 1000 ----remaining money 98000
+, Operation11148525 has taken from account G the sum of 1000 and put to account E ----remaining money 97000
+, Operation14516836 has transferd from S to G the sum of 1000 ----remaining money 98000
+, Operation53484808 has transferd from A to G the sum of 1000 ----remaining money 99000
+, Operation2267054 has transferd from U to G the sum of 1000 ----remaining money 100000
+, Operation52881462 has taken from account G the sum of 1000 and put to account K ----remaining money 99000
+, Operation51139280 has transferd from S to G the sum of 1000 ----remaining money 100000
+, Operation1703816 has transferd from T to G the sum of 1000 ----remaining money 101000
+, Operation21883301 has transferd from P to G the sum of 1000 ----remaining money 102000
+, Operation44409063 has transferd from A to G the sum of 1000 ----remaining money 103000
+, Operation26246739 has transferd from Q to G the sum of 1000 ----remaining money 104000
+, Operation4617081 has transferd from K to G the sum of 1000 ----remaining money 105000
 ]
 [H
-, Operation12082330 has transferd from B to H the sum of 1000 ----remaining money 101000
-, Operation99842694 has taken from account H the sum of 1000 and put to account Z ----remaining money 100000
-, Operation76152464 has transferd from C to H the sum of 1000 ----remaining money 101000
-, Operation965063 has transferd from G to H the sum of 1000 ----remaining money 102000
-, Operation95986449 has taken from account H the sum of 1000 and put to account B ----remaining money 101000
-, Operation45119012 has taken from account H the sum of 1000 and put to account Q ----remaining money 100000
-, Operation46426910 has transferd from U to H the sum of 1000 ----remaining money 101000
-, Operation89869613 has taken from account H the sum of 1000 and put to account P ----remaining money 100000
-, Operation57951714 has transferd from P to H the sum of 1000 ----remaining money 101000
-, Operation80391139 has transferd from T to H the sum of 1000 ----remaining money 102000
-, Operation96132782 has taken from account H the sum of 1000 and put to account U ----remaining money 101000
-, Operation7462117 has transferd from I to H the sum of 1000 ----remaining money 102000
-, Operation21409150 has transferd from D to H the sum of 1000 ----remaining money 103000
-, Operation91909534 has transferd from V to H the sum of 1000 ----remaining money 104000
+, Operation93132379 has transferd from D to H the sum of 1000 ----remaining money 101000
+, Operation71867687 has taken from account H the sum of 1000 and put to account W ----remaining money 100000
+, Operation83109034 has taken from account H the sum of 1000 and put to account K ----remaining money 99000
+, Operation37562168 has transferd from Q to H the sum of 1000 ----remaining money 100000
+, Operation50403728 has taken from account H the sum of 1000 and put to account Z ----remaining money 99000
 ]
 [I
-, Operation93053765 has transferd from A to I the sum of 1000 ----remaining money 101000
-, Operation32809557 has transferd from R to I the sum of 1000 ----remaining money 102000
-, Operation62004171 has taken from account I the sum of 1000 and put to account B ----remaining money 101000
-, Operation74514408 has transferd from Z to I the sum of 1000 ----remaining money 102000
-, Operation27919587 has transferd from A to I the sum of 1000 ----remaining money 103000
-, Operation20661562 has taken from account I the sum of 1000 and put to account S ----remaining money 102000
-, Operation84850115 has transferd from F to I the sum of 1000 ----remaining money 103000
-, Operation13139193 has transferd from S to I the sum of 1000 ----remaining money 104000
-, Operation67906226 has taken from account I the sum of 1000 and put to account R ----remaining money 103000
-, Operation88305872 has taken from account I the sum of 1000 and put to account A ----remaining money 102000
-, Operation64849762 has transferd from W to I the sum of 1000 ----remaining money 103000
-, Operation43624389 has transferd from X to I the sum of 1000 ----remaining money 104000
-, Operation67996733 has taken from account I the sum of 1000 and put to account G ----remaining money 103000
-, Operation42677050 has transferd from D to I the sum of 1000 ----remaining money 104000
-, Operation7462117 has taken from account I the sum of 1000 and put to account H ----remaining money 103000
+, Operation37712471 has taken from account I the sum of 1000 and put to account E ----remaining money 99000
+, Operation86260765 has taken from account I the sum of 1000 and put to account X ----remaining money 98000
+, Operation11414466 has transferd from V to I the sum of 1000 ----remaining money 99000
+, Operation96819811 has taken from account I the sum of 1000 and put to account W ----remaining money 98000
+, Operation95714692 has transferd from D to I the sum of 1000 ----remaining money 99000
+, Operation32429589 has taken from account I the sum of 1000 and put to account L ----remaining money 98000
+, Operation7667499 has transferd from J to I the sum of 1000 ----remaining money 99000
+, Operation40298408 has transferd from V to I the sum of 1000 ----remaining money 100000
+, Operation29507875 has transferd from F to I the sum of 1000 ----remaining money 101000
+, Operation28078299 has taken from account I the sum of 1000 and put to account W ----remaining money 100000
+, Operation85362575 has transferd from Z to I the sum of 1000 ----remaining money 101000
+, Operation1195529 has transferd from D to I the sum of 1000 ----remaining money 102000
+, Operation21746666 has transferd from W to I the sum of 1000 ----remaining money 103000
 ]
 [J
-, Operation90578701 has transferd from W to J the sum of 1000 ----remaining money 101000
-, Operation36424739 has taken from account J the sum of 1000 and put to account E ----remaining money 100000
-, Operation84164300 has transferd from U to J the sum of 1000 ----remaining money 101000
-, Operation4293223 has taken from account J the sum of 1000 and put to account T ----remaining money 100000
-, Operation54107652 has transferd from Z to J the sum of 1000 ----remaining money 101000
-, Operation89195245 has transferd from O to J the sum of 1000 ----remaining money 102000
-, Operation78347483 has transferd from U to J the sum of 1000 ----remaining money 103000
-, Operation3240772 has taken from account J the sum of 1000 and put to account M ----remaining money 102000
-, Operation56598086 has taken from account J the sum of 1000 and put to account Z ----remaining money 101000
-, Operation10004775 has taken from account J the sum of 1000 and put to account Q ----remaining money 100000
+, Operation81041404 has transferd from M to J the sum of 1000 ----remaining money 101000
+, Operation71676137 has taken from account J the sum of 1000 and put to account U ----remaining money 100000
+, Operation874677 has taken from account J the sum of 1000 and put to account B ----remaining money 99000
+, Operation8103254 has taken from account J the sum of 1000 and put to account C ----remaining money 98000
+, Operation85979234 has transferd from R to J the sum of 1000 ----remaining money 99000
+, Operation29578542 has transferd from T to J the sum of 1000 ----remaining money 100000
+, Operation81336905 has transferd from Y to J the sum of 1000 ----remaining money 101000
+, Operation7667499 has taken from account J the sum of 1000 and put to account I ----remaining money 100000
+, Operation43432419 has transferd from R to J the sum of 1000 ----remaining money 101000
+, Operation58522522 has taken from account J the sum of 1000 and put to account T ----remaining money 100000
+, Operation69893664 has taken from account J the sum of 1000 and put to account E ----remaining money 99000
+, Operation1894773 has transferd from N to J the sum of 1000 ----remaining money 100000
 ]
 [K
-, Operation21678791 has transferd from Z to K the sum of 1000 ----remaining money 101000
-, Operation16696338 has taken from account K the sum of 1000 and put to account X ----remaining money 100000
-, Operation12055204 has transferd from L to K the sum of 1000 ----remaining money 101000
-, Operation44481525 has taken from account K the sum of 1000 and put to account E ----remaining money 100000
-, Operation9204950 has transferd from L to K the sum of 1000 ----remaining money 101000
-, Operation64130283 has taken from account K the sum of 1000 and put to account N ----remaining money 100000
-, Operation29296635 has transferd from G to K the sum of 1000 ----remaining money 101000
-, Operation1512203 has taken from account K the sum of 1000 and put to account M ----remaining money 100000
-, Operation36440308 has transferd from M to K the sum of 1000 ----remaining money 101000
-, Operation41380155 has transferd from D to K the sum of 1000 ----remaining money 102000
-, Operation69438841 has transferd from U to K the sum of 1000 ----remaining money 103000
-, Operation93126658 has transferd from F to K the sum of 1000 ----remaining money 104000
-, Operation93102996 has taken from account K the sum of 1000 and put to account C ----remaining money 103000
-, Operation39794187 has transferd from S to K the sum of 1000 ----remaining money 104000
-, Operation1044879 has taken from account K the sum of 1000 and put to account S ----remaining money 103000
-, Operation27136503 has taken from account K the sum of 1000 and put to account T ----remaining money 102000
-, Operation49900873 has taken from account K the sum of 1000 and put to account N ----remaining money 101000
-, Operation19850657 has taken from account K the sum of 1000 and put to account N ----remaining money 100000
-, Operation2252476 has transferd from R to K the sum of 1000 ----remaining money 101000
+, Operation25169710 has transferd from M to K the sum of 1000 ----remaining money 101000
+, Operation90215804 has transferd from U to K the sum of 1000 ----remaining money 102000
+, Operation2075254 has transferd from U to K the sum of 1000 ----remaining money 103000
+, Operation4544873 has taken from account K the sum of 1000 and put to account F ----remaining money 102000
+, Operation81571307 has transferd from D to K the sum of 1000 ----remaining money 103000
+, Operation52881462 has transferd from G to K the sum of 1000 ----remaining money 104000
+, Operation5757880 has transferd from F to K the sum of 1000 ----remaining money 105000
+, Operation83109034 has transferd from H to K the sum of 1000 ----remaining money 106000
+, Operation4617081 has taken from account K the sum of 1000 and put to account G ----remaining money 105000
 ]
 [L
-, Operation46459395 has transferd from R to L the sum of 1000 ----remaining money 101000
-, Operation12055204 has taken from account L the sum of 1000 and put to account K ----remaining money 100000
-, Operation9204950 has taken from account L the sum of 1000 and put to account K ----remaining money 99000
-, Operation84391093 has taken from account L the sum of 1000 and put to account F ----remaining money 98000
-, Operation82620199 has transferd from E to L the sum of 1000 ----remaining money 99000
-, Operation46508095 has taken from account L the sum of 1000 and put to account O ----remaining money 98000
-, Operation35777477 has transferd from F to L the sum of 1000 ----remaining money 99000
-, Operation10266616 has transferd from G to L the sum of 1000 ----remaining money 100000
-, Operation4920550 has transferd from Q to L the sum of 1000 ----remaining money 101000
-, Operation78685585 has taken from account L the sum of 1000 and put to account R ----remaining money 100000
-, Operation25349313 has transferd from C to L the sum of 1000 ----remaining money 101000
-, Operation6233032 has transferd from N to L the sum of 1000 ----remaining money 102000
+, Operation39558685 has taken from account L the sum of 1000 and put to account N ----remaining money 99000
+, Operation25384090 has transferd from N to L the sum of 1000 ----remaining money 100000
+, Operation38986851 has taken from account L the sum of 1000 and put to account Y ----remaining money 99000
+, Operation11617717 has taken from account L the sum of 1000 and put to account A ----remaining money 98000
+, Operation32429589 has transferd from I to L the sum of 1000 ----remaining money 99000
+, Operation66436687 has transferd from Z to L the sum of 1000 ----remaining money 100000
 ]
 [M
-, Operation83126404 has taken from account M the sum of 1000 and put to account N ----remaining money 99000
-, Operation17554715 has taken from account M the sum of 1000 and put to account E ----remaining money 98000
-, Operation1512203 has transferd from K to M the sum of 1000 ----remaining money 99000
-, Operation36440308 has taken from account M the sum of 1000 and put to account K ----remaining money 98000
-, Operation5225586 has taken from account M the sum of 1000 and put to account V ----remaining money 97000
-, Operation99963558 has taken from account M the sum of 1000 and put to account X ----remaining money 96000
-, Operation3240772 has transferd from J to M the sum of 1000 ----remaining money 97000
-, Operation73333186 has transferd from D to M the sum of 1000 ----remaining money 98000
+, Operation65327185 has transferd from R to M the sum of 1000 ----remaining money 101000
+, Operation25169710 has taken from account M the sum of 1000 and put to account K ----remaining money 100000
+, Operation81041404 has taken from account M the sum of 1000 and put to account J ----remaining money 99000
+, Operation632825 has transferd from G to M the sum of 1000 ----remaining money 100000
+, Operation77304192 has taken from account M the sum of 1000 and put to account N ----remaining money 99000
+, Operation89986813 has taken from account M the sum of 1000 and put to account P ----remaining money 98000
+, Operation81007508 has taken from account M the sum of 1000 and put to account W ----remaining money 97000
+, Operation83930147 has transferd from D to M the sum of 1000 ----remaining money 98000
+, Operation72849893 has transferd from E to M the sum of 1000 ----remaining money 99000
+, Operation15490824 has transferd from Y to M the sum of 1000 ----remaining money 100000
 ]
 [N
-, Operation83126404 has transferd from M to N the sum of 1000 ----remaining money 101000
-, Operation42046421 has transferd from G to N the sum of 1000 ----remaining money 102000
-, Operation64130283 has transferd from K to N the sum of 1000 ----remaining money 103000
-, Operation66841668 has taken from account N the sum of 1000 and put to account Q ----remaining money 102000
-, Operation89756914 has transferd from W to N the sum of 1000 ----remaining money 103000
-, Operation81596520 has taken from account N the sum of 1000 and put to account V ----remaining money 102000
-, Operation20839080 has transferd from Q to N the sum of 1000 ----remaining money 103000
-, Operation98753276 has transferd from V to N the sum of 1000 ----remaining money 104000
-, Operation24971898 has taken from account N the sum of 1000 and put to account P ----remaining money 103000
-, Operation49900873 has transferd from K to N the sum of 1000 ----remaining money 104000
-, Operation19850657 has transferd from K to N the sum of 1000 ----remaining money 105000
-, Operation6233032 has taken from account N the sum of 1000 and put to account L ----remaining money 104000
-, Operation27917101 has taken from account N the sum of 1000 and put to account D ----remaining money 103000
+, Operation77037026 has transferd from C to N the sum of 1000 ----remaining money 101000
+, Operation39558685 has transferd from L to N the sum of 1000 ----remaining money 102000
+, Operation25384090 has taken from account N the sum of 1000 and put to account L ----remaining money 101000
+, Operation55953928 has transferd from F to N the sum of 1000 ----remaining money 102000
+, Operation90859812 has transferd from F to N the sum of 1000 ----remaining money 103000
+, Operation77304192 has transferd from M to N the sum of 1000 ----remaining money 104000
+, Operation61635266 has transferd from Q to N the sum of 1000 ----remaining money 105000
+, Operation26948738 has transferd from Q to N the sum of 1000 ----remaining money 106000
+, Operation54328143 has taken from account N the sum of 1000 and put to account S ----remaining money 105000
+, Operation1894773 has taken from account N the sum of 1000 and put to account J ----remaining money 104000
+, Operation86378635 has taken from account N the sum of 1000 and put to account P ----remaining money 103000
 ]
 [O
-, Operation60650450 has taken from account O the sum of 1000 and put to account D ----remaining money 99000
-, Operation89977275 has taken from account O the sum of 1000 and put to account F ----remaining money 98000
-, Operation89195245 has taken from account O the sum of 1000 and put to account J ----remaining money 97000
-, Operation32829988 has transferd from X to O the sum of 1000 ----remaining money 98000
-, Operation46508095 has transferd from L to O the sum of 1000 ----remaining money 99000
-, Operation14634961 has transferd from E to O the sum of 1000 ----remaining money 100000
-, Operation44617395 has taken from account O the sum of 1000 and put to account C ----remaining money 99000
-, Operation53802351 has taken from account O the sum of 1000 and put to account Y ----remaining money 98000
-, Operation9589544 has taken from account O the sum of 1000 and put to account V ----remaining money 97000
-, Operation46941738 has transferd from B to O the sum of 1000 ----remaining money 98000
+, Operation21045297 has transferd from C to O the sum of 1000 ----remaining money 101000
+, Operation8398571 has taken from account O the sum of 1000 and put to account S ----remaining money 100000
+, Operation80902210 has taken from account O the sum of 1000 and put to account W ----remaining money 99000
+, Operation54685192 has taken from account O the sum of 1000 and put to account A ----remaining money 98000
+, Operation30499388 has transferd from D to O the sum of 1000 ----remaining money 99000
+, Operation1952967 has transferd from E to O the sum of 1000 ----remaining money 100000
+, Operation3819844 has taken from account O the sum of 1000 and put to account S ----remaining money 99000
 ]
 [P
-, Operation52667162 has taken from account P the sum of 1000 and put to account Z ----remaining money 99000
-, Operation30350714 has taken from account P the sum of 1000 and put to account Q ----remaining money 98000
-, Operation73449644 has transferd from T to P the sum of 1000 ----remaining money 99000
-, Operation3323080 has taken from account P the sum of 1000 and put to account S ----remaining money 98000
-, Operation45721050 has transferd from Q to P the sum of 1000 ----remaining money 99000
-, Operation92097437 has transferd from T to P the sum of 1000 ----remaining money 100000
-, Operation74498754 has taken from account P the sum of 1000 and put to account E ----remaining money 99000
-, Operation62658157 has taken from account P the sum of 1000 and put to account U ----remaining money 98000
-, Operation89869613 has transferd from H to P the sum of 1000 ----remaining money 99000
-, Operation26851261 has transferd from B to P the sum of 1000 ----remaining money 100000
-, Operation24451852 has taken from account P the sum of 1000 and put to account D ----remaining money 99000
-, Operation57951714 has taken from account P the sum of 1000 and put to account H ----remaining money 98000
-, Operation96073031 has transferd from S to P the sum of 1000 ----remaining money 99000
-, Operation23437696 has transferd from T to P the sum of 1000 ----remaining money 100000
-, Operation24971898 has transferd from N to P the sum of 1000 ----remaining money 101000
-, Operation58648193 has taken from account P the sum of 1000 and put to account U ----remaining money 100000
-, Operation50160987 has transferd from G to P the sum of 1000 ----remaining money 101000
-, Operation68632237 has taken from account P the sum of 1000 and put to account E ----remaining money 100000
+, Operation61602356 has taken from account P the sum of 1000 and put to account Z ----remaining money 99000
+, Operation98775872 has taken from account P the sum of 1000 and put to account U ----remaining money 98000
+, Operation52791916 has taken from account P the sum of 1000 and put to account E ----remaining money 97000
+, Operation25423846 has taken from account P the sum of 1000 and put to account T ----remaining money 96000
+, Operation89986813 has transferd from M to P the sum of 1000 ----remaining money 97000
+, Operation26506 has taken from account P the sum of 1000 and put to account D ----remaining money 96000
+, Operation63897443 has transferd from B to P the sum of 1000 ----remaining money 97000
+, Operation21883301 has taken from account P the sum of 1000 and put to account G ----remaining money 96000
+, Operation81804563 has transferd from R to P the sum of 1000 ----remaining money 97000
+, Operation68326986 has taken from account P the sum of 1000 and put to account C ----remaining money 96000
+, Operation86378635 has transferd from N to P the sum of 1000 ----remaining money 97000
 ]
 [Q
-, Operation43304054 has transferd from X to Q the sum of 1000 ----remaining money 101000
-, Operation79723145 has transferd from S to Q the sum of 1000 ----remaining money 102000
-, Operation19569287 has taken from account Q the sum of 1000 and put to account U ----remaining money 101000
-, Operation44311141 has transferd from T to Q the sum of 1000 ----remaining money 102000
-, Operation45119012 has transferd from H to Q the sum of 1000 ----remaining money 103000
-, Operation21928102 has transferd from W to Q the sum of 1000 ----remaining money 104000
-, Operation30350714 has transferd from P to Q the sum of 1000 ----remaining money 105000
-, Operation66841668 has transferd from N to Q the sum of 1000 ----remaining money 106000
-, Operation81611163 has transferd from E to Q the sum of 1000 ----remaining money 107000
-, Operation45721050 has taken from account Q the sum of 1000 and put to account P ----remaining money 106000
-, Operation2194663 has transferd from G to Q the sum of 1000 ----remaining money 107000
-, Operation10004775 has transferd from J to Q the sum of 1000 ----remaining money 108000
-, Operation20839080 has taken from account Q the sum of 1000 and put to account N ----remaining money 107000
-, Operation4920550 has taken from account Q the sum of 1000 and put to account L ----remaining money 106000
+, Operation81850177 has transferd from D to Q the sum of 1000 ----remaining money 101000
+, Operation14819710 has transferd from V to Q the sum of 1000 ----remaining money 102000
+, Operation69907736 has taken from account Q the sum of 1000 and put to account Y ----remaining money 101000
+, Operation78722904 has transferd from R to Q the sum of 1000 ----remaining money 102000
+, Operation61635266 has taken from account Q the sum of 1000 and put to account N ----remaining money 101000
+, Operation85314234 has taken from account Q the sum of 1000 and put to account R ----remaining money 100000
+, Operation26948738 has taken from account Q the sum of 1000 and put to account N ----remaining money 99000
+, Operation37562168 has taken from account Q the sum of 1000 and put to account H ----remaining money 98000
+, Operation89313679 has transferd from B to Q the sum of 1000 ----remaining money 99000
+, Operation46158013 has transferd from C to Q the sum of 1000 ----remaining money 100000
+, Operation26246739 has taken from account Q the sum of 1000 and put to account G ----remaining money 99000
 ]
 [R
-, Operation46459395 has taken from account R the sum of 1000 and put to account L ----remaining money 99000
-, Operation94719673 has transferd from Z to R the sum of 1000 ----remaining money 100000
-, Operation32040679 has transferd from V to R the sum of 1000 ----remaining money 101000
-, Operation58962562 has transferd from C to R the sum of 1000 ----remaining money 102000
-, Operation32809557 has taken from account R the sum of 1000 and put to account I ----remaining money 101000
-, Operation55324011 has transferd from C to R the sum of 1000 ----remaining money 102000
-, Operation79601802 has transferd from B to R the sum of 1000 ----remaining money 103000
-, Operation84970259 has transferd from V to R the sum of 1000 ----remaining money 104000
-, Operation53723414 has taken from account R the sum of 1000 and put to account X ----remaining money 103000
-, Operation67906226 has transferd from I to R the sum of 1000 ----remaining money 104000
-, Operation44743534 has transferd from S to R the sum of 1000 ----remaining money 105000
-, Operation78685585 has transferd from L to R the sum of 1000 ----remaining money 106000
-, Operation2252476 has taken from account R the sum of 1000 and put to account K ----remaining money 105000
+, Operation55094988 has transferd from A to R the sum of 1000 ----remaining money 101000
+, Operation65327185 has taken from account R the sum of 1000 and put to account M ----remaining money 100000
+, Operation85979234 has taken from account R the sum of 1000 and put to account J ----remaining money 99000
+, Operation78722904 has taken from account R the sum of 1000 and put to account Q ----remaining money 98000
+, Operation85314234 has transferd from Q to R the sum of 1000 ----remaining money 99000
+, Operation73693207 has taken from account R the sum of 1000 and put to account S ----remaining money 98000
+, Operation95914699 has transferd from C to R the sum of 1000 ----remaining money 99000
+, Operation81804563 has taken from account R the sum of 1000 and put to account P ----remaining money 98000
+, Operation43432419 has taken from account R the sum of 1000 and put to account J ----remaining money 97000
+, Operation11662864 has transferd from T to R the sum of 1000 ----remaining money 98000
+, Operation95068839 has transferd from X to R the sum of 1000 ----remaining money 99000
 ]
 [S
-, Operation78075637 has transferd from C to S the sum of 1000 ----remaining money 101000
-, Operation79723145 has taken from account S the sum of 1000 and put to account Q ----remaining money 100000
-, Operation47447660 has transferd from U to S the sum of 1000 ----remaining money 101000
-, Operation3323080 has transferd from P to S the sum of 1000 ----remaining money 102000
-, Operation20661562 has transferd from I to S the sum of 1000 ----remaining money 103000
-, Operation38255223 has transferd from A to S the sum of 1000 ----remaining money 104000
-, Operation20991979 has transferd from F to S the sum of 1000 ----remaining money 105000
-, Operation13139193 has taken from account S the sum of 1000 and put to account I ----remaining money 104000
-, Operation3458788 has taken from account S the sum of 1000 and put to account B ----remaining money 103000
-, Operation39794187 has taken from account S the sum of 1000 and put to account K ----remaining money 102000
-, Operation96073031 has taken from account S the sum of 1000 and put to account P ----remaining money 101000
-, Operation1044879 has transferd from K to S the sum of 1000 ----remaining money 102000
-, Operation44743534 has taken from account S the sum of 1000 and put to account R ----remaining money 101000
-, Operation58059893 has taken from account S the sum of 1000 and put to account T ----remaining money 100000
-, Operation15786391 has transferd from F to S the sum of 1000 ----remaining money 101000
-, Operation49227199 has taken from account S the sum of 1000 and put to account U ----remaining money 100000
+, Operation60337536 has transferd from D to S the sum of 1000 ----remaining money 101000
+, Operation14516836 has taken from account S the sum of 1000 and put to account G ----remaining money 100000
+, Operation8398571 has transferd from O to S the sum of 1000 ----remaining money 101000
+, Operation21539659 has transferd from T to S the sum of 1000 ----remaining money 102000
+, Operation48050352 has transferd from B to S the sum of 1000 ----remaining money 103000
+, Operation77956669 has transferd from W to S the sum of 1000 ----remaining money 104000
+, Operation11567645 has taken from account S the sum of 1000 and put to account Y ----remaining money 103000
+, Operation73693207 has transferd from R to S the sum of 1000 ----remaining money 104000
+, Operation51139280 has taken from account S the sum of 1000 and put to account G ----remaining money 103000
+, Operation54328143 has transferd from N to S the sum of 1000 ----remaining money 104000
+, Operation42652127 has taken from account S the sum of 1000 and put to account A ----remaining money 103000
+, Operation18730779 has taken from account S the sum of 1000 and put to account Z ----remaining money 102000
+, Operation3819844 has transferd from O to S the sum of 1000 ----remaining money 103000
 ]
 [T
-, Operation44974257 has transferd from E to T the sum of 1000 ----remaining money 101000
-, Operation44311141 has taken from account T the sum of 1000 and put to account Q ----remaining money 100000
-, Operation4293223 has transferd from J to T the sum of 1000 ----remaining money 101000
-, Operation36124739 has transferd from X to T the sum of 1000 ----remaining money 102000
-, Operation73449644 has taken from account T the sum of 1000 and put to account P ----remaining money 101000
-, Operation92097437 has taken from account T the sum of 1000 and put to account P ----remaining money 100000
-, Operation5536761 has transferd from Z to T the sum of 1000 ----remaining money 101000
-, Operation23437696 has taken from account T the sum of 1000 and put to account P ----remaining money 100000
-, Operation70659808 has taken from account T the sum of 1000 and put to account B ----remaining money 99000
-, Operation11920002 has taken from account T the sum of 1000 and put to account U ----remaining money 98000
-, Operation58059893 has transferd from S to T the sum of 1000 ----remaining money 99000
-, Operation27136503 has transferd from K to T the sum of 1000 ----remaining money 100000
-, Operation80391139 has taken from account T the sum of 1000 and put to account H ----remaining money 99000
+, Operation3384600 has transferd from U to T the sum of 1000 ----remaining money 101000
+, Operation25423846 has transferd from P to T the sum of 1000 ----remaining money 102000
+, Operation21539659 has taken from account T the sum of 1000 and put to account S ----remaining money 101000
+, Operation29578542 has taken from account T the sum of 1000 and put to account J ----remaining money 100000
+, Operation94348546 has taken from account T the sum of 1000 and put to account U ----remaining money 99000
+, Operation34913471 has taken from account T the sum of 1000 and put to account X ----remaining money 98000
+, Operation1703816 has taken from account T the sum of 1000 and put to account G ----remaining money 97000
+, Operation48949279 has taken from account T the sum of 1000 and put to account E ----remaining money 96000
+, Operation22797420 has taken from account T the sum of 1000 and put to account V ----remaining money 95000
+, Operation30398179 has transferd from U to T the sum of 1000 ----remaining money 96000
+, Operation58522522 has transferd from J to T the sum of 1000 ----remaining money 97000
+, Operation11662864 has taken from account T the sum of 1000 and put to account R ----remaining money 96000
 ]
 [U
-, Operation96936241 has transferd from W to U the sum of 1000 ----remaining money 101000
-, Operation44821197 has transferd from B to U the sum of 1000 ----remaining money 102000
-, Operation84164300 has taken from account U the sum of 1000 and put to account J ----remaining money 101000
-, Operation19569287 has transferd from Q to U the sum of 1000 ----remaining money 102000
-, Operation69416415 has taken from account U the sum of 1000 and put to account Z ----remaining money 101000
-, Operation69438841 has taken from account U the sum of 1000 and put to account K ----remaining money 100000
-, Operation46426910 has taken from account U the sum of 1000 and put to account H ----remaining money 99000
-, Operation47447660 has taken from account U the sum of 1000 and put to account S ----remaining money 98000
-, Operation78347483 has taken from account U the sum of 1000 and put to account J ----remaining money 97000
-, Operation62658157 has transferd from P to U the sum of 1000 ----remaining money 98000
-, Operation11920002 has transferd from T to U the sum of 1000 ----remaining money 99000
-, Operation14270353 has taken from account U the sum of 1000 and put to account Z ----remaining money 98000
-, Operation58648193 has transferd from P to U the sum of 1000 ----remaining money 99000
-, Operation96132782 has transferd from H to U the sum of 1000 ----remaining money 100000
-, Operation49227199 has transferd from S to U the sum of 1000 ----remaining money 101000
+, Operation41461331 has transferd from F to U the sum of 1000 ----remaining money 101000
+, Operation3384600 has taken from account U the sum of 1000 and put to account T ----remaining money 100000
+, Operation90215804 has taken from account U the sum of 1000 and put to account K ----remaining money 99000
+, Operation98775872 has transferd from P to U the sum of 1000 ----remaining money 100000
+, Operation71676137 has transferd from J to U the sum of 1000 ----remaining money 101000
+, Operation67053905 has transferd from D to U the sum of 1000 ----remaining money 102000
+, Operation2075254 has taken from account U the sum of 1000 and put to account K ----remaining money 101000
+, Operation2267054 has taken from account U the sum of 1000 and put to account G ----remaining money 100000
+, Operation93005119 has transferd from A to U the sum of 1000 ----remaining money 101000
+, Operation11109563 has taken from account U the sum of 1000 and put to account X ----remaining money 100000
+, Operation64180402 has transferd from B to U the sum of 1000 ----remaining money 101000
+, Operation94348546 has transferd from T to U the sum of 1000 ----remaining money 102000
+, Operation30398179 has taken from account U the sum of 1000 and put to account T ----remaining money 101000
 ]
 [V
-, Operation32040679 has taken from account V the sum of 1000 and put to account R ----remaining money 99000
-, Operation36753280 has transferd from A to V the sum of 1000 ----remaining money 100000
-, Operation68180644 has transferd from D to V the sum of 1000 ----remaining money 101000
-, Operation5225586 has transferd from M to V the sum of 1000 ----remaining money 102000
-, Operation74690386 has transferd from C to V the sum of 1000 ----remaining money 103000
-, Operation74597085 has taken from account V the sum of 1000 and put to account W ----remaining money 102000
-, Operation56157464 has transferd from Y to V the sum of 1000 ----remaining money 103000
-, Operation45974413 has transferd from Z to V the sum of 1000 ----remaining money 104000
-, Operation84970259 has taken from account V the sum of 1000 and put to account R ----remaining money 103000
-, Operation81596520 has transferd from N to V the sum of 1000 ----remaining money 104000
-, Operation98753276 has taken from account V the sum of 1000 and put to account N ----remaining money 103000
-, Operation9589544 has transferd from O to V the sum of 1000 ----remaining money 104000
-, Operation91909534 has taken from account V the sum of 1000 and put to account H ----remaining money 103000
+, Operation8947272 has transferd from E to V the sum of 1000 ----remaining money 101000
+, Operation8253473 has transferd from C to V the sum of 1000 ----remaining money 102000
+, Operation46839532 has taken from account V the sum of 1000 and put to account G ----remaining money 101000
+, Operation11414466 has taken from account V the sum of 1000 and put to account I ----remaining money 100000
+, Operation24930188 has taken from account V the sum of 1000 and put to account B ----remaining money 99000
+, Operation42426257 has taken from account V the sum of 1000 and put to account W ----remaining money 98000
+, Operation14819710 has taken from account V the sum of 1000 and put to account Q ----remaining money 97000
+, Operation22797420 has transferd from T to V the sum of 1000 ----remaining money 98000
+, Operation80162163 has transferd from F to V the sum of 1000 ----remaining money 99000
+, Operation40298408 has taken from account V the sum of 1000 and put to account I ----remaining money 98000
+, Operation51918811 has transferd from E to V the sum of 1000 ----remaining money 99000
+, Operation9871642 has taken from account V the sum of 1000 and put to account Z ----remaining money 98000
 ]
 [W
-, Operation90578701 has taken from account W the sum of 1000 and put to account J ----remaining money 99000
-, Operation96936241 has taken from account W the sum of 1000 and put to account U ----remaining money 98000
-, Operation90366729 has transferd from X to W the sum of 1000 ----remaining money 99000
-, Operation60139567 has transferd from D to W the sum of 1000 ----remaining money 100000
-, Operation35810487 has transferd from G to W the sum of 1000 ----remaining money 101000
-, Operation21928102 has taken from account W the sum of 1000 and put to account Q ----remaining money 100000
-, Operation81258905 has taken from account W the sum of 1000 and put to account Y ----remaining money 99000
-, Operation89756914 has taken from account W the sum of 1000 and put to account N ----remaining money 98000
-, Operation74597085 has transferd from V to W the sum of 1000 ----remaining money 99000
-, Operation49527427 has taken from account W the sum of 1000 and put to account E ----remaining money 98000
-, Operation87324214 has transferd from B to W the sum of 1000 ----remaining money 99000
-, Operation64849762 has taken from account W the sum of 1000 and put to account I ----remaining money 98000
-, Operation93779681 has transferd from E to W the sum of 1000 ----remaining money 99000
-, Operation41752182 has taken from account W the sum of 1000 and put to account G ----remaining money 98000
+, Operation65193834 has transferd from G to W the sum of 1000 ----remaining money 101000
+, Operation42426257 has transferd from V to W the sum of 1000 ----remaining money 102000
+, Operation96819811 has transferd from I to W the sum of 1000 ----remaining money 103000
+, Operation96246983 has transferd from E to W the sum of 1000 ----remaining money 104000
+, Operation80902210 has transferd from O to W the sum of 1000 ----remaining money 105000
+, Operation77956669 has taken from account W the sum of 1000 and put to account S ----remaining money 104000
+, Operation71867687 has transferd from H to W the sum of 1000 ----remaining money 105000
+, Operation57422211 has transferd from B to W the sum of 1000 ----remaining money 106000
+, Operation81007508 has transferd from M to W the sum of 1000 ----remaining money 107000
+, Operation26973766 has taken from account W the sum of 1000 and put to account F ----remaining money 106000
+, Operation28078299 has transferd from I to W the sum of 1000 ----remaining money 107000
+, Operation21746666 has taken from account W the sum of 1000 and put to account I ----remaining money 106000
+, Operation25560843 has taken from account W the sum of 1000 and put to account D ----remaining money 105000
 ]
 [X
-, Operation43304054 has taken from account X the sum of 1000 and put to account Q ----remaining money 99000
-, Operation16696338 has transferd from K to X the sum of 1000 ----remaining money 100000
-, Operation22572502 has taken from account X the sum of 1000 and put to account E ----remaining money 99000
-, Operation90366729 has taken from account X the sum of 1000 and put to account W ----remaining money 98000
-, Operation9997177 has taken from account X the sum of 1000 and put to account A ----remaining money 97000
-, Operation36124739 has taken from account X the sum of 1000 and put to account T ----remaining money 96000
-, Operation99963558 has transferd from M to X the sum of 1000 ----remaining money 97000
-, Operation32829988 has taken from account X the sum of 1000 and put to account O ----remaining money 96000
-, Operation53723414 has transferd from R to X the sum of 1000 ----remaining money 97000
-, Operation43624389 has taken from account X the sum of 1000 and put to account I ----remaining money 96000
+, Operation35786720 has transferd from Y to X the sum of 1000 ----remaining money 101000
+, Operation86260765 has transferd from I to X the sum of 1000 ----remaining money 102000
+, Operation71457817 has taken from account X the sum of 1000 and put to account E ----remaining money 101000
+, Operation98255776 has transferd from F to X the sum of 1000 ----remaining money 102000
+, Operation11109563 has transferd from U to X the sum of 1000 ----remaining money 103000
+, Operation38781187 has taken from account X the sum of 1000 and put to account A ----remaining money 102000
+, Operation34913471 has transferd from T to X the sum of 1000 ----remaining money 103000
+, Operation77634325 has taken from account X the sum of 1000 and put to account Z ----remaining money 102000
+, Operation95068839 has taken from account X the sum of 1000 and put to account R ----remaining money 101000
+, Operation81439753 has transferd from E to X the sum of 1000 ----remaining money 102000
 ]
 [Y
-, Operation31273041 has transferd from E to Y the sum of 1000 ----remaining money 101000
-, Operation65256 has taken from account Y the sum of 1000 and put to account C ----remaining money 100000
-, Operation34843397 has transferd from B to Y the sum of 1000 ----remaining money 101000
-, Operation81258905 has transferd from W to Y the sum of 1000 ----remaining money 102000
-, Operation56157464 has taken from account Y the sum of 1000 and put to account V ----remaining money 101000
-, Operation53802351 has transferd from O to Y the sum of 1000 ----remaining money 102000
+, Operation35786720 has taken from account Y the sum of 1000 and put to account X ----remaining money 99000
+, Operation42579687 has taken from account Y the sum of 1000 and put to account C ----remaining money 98000
+, Operation38986851 has transferd from L to Y the sum of 1000 ----remaining money 99000
+, Operation69907736 has transferd from Q to Y the sum of 1000 ----remaining money 100000
+, Operation82324895 has transferd from Z to Y the sum of 1000 ----remaining money 101000
+, Operation11567645 has transferd from S to Y the sum of 1000 ----remaining money 102000
+, Operation81336905 has taken from account Y the sum of 1000 and put to account J ----remaining money 101000
+, Operation15490824 has taken from account Y the sum of 1000 and put to account M ----remaining money 100000
 ]
 [Z
-, Operation21678791 has taken from account Z the sum of 1000 and put to account K ----remaining money 99000
-, Operation52667162 has transferd from P to Z the sum of 1000 ----remaining money 100000
-, Operation94719673 has taken from account Z the sum of 1000 and put to account R ----remaining money 99000
-, Operation99842694 has transferd from H to Z the sum of 1000 ----remaining money 100000
-, Operation89438391 has transferd from B to Z the sum of 1000 ----remaining money 101000
-, Operation74514408 has taken from account Z the sum of 1000 and put to account I ----remaining money 100000
-, Operation69416415 has transferd from U to Z the sum of 1000 ----remaining money 101000
-, Operation54107652 has taken from account Z the sum of 1000 and put to account J ----remaining money 100000
-, Operation17085019 has transferd from A to Z the sum of 1000 ----remaining money 101000
-, Operation45974413 has taken from account Z the sum of 1000 and put to account V ----remaining money 100000
-, Operation56598086 has transferd from J to Z the sum of 1000 ----remaining money 101000
-, Operation5536761 has taken from account Z the sum of 1000 and put to account T ----remaining money 100000
-, Operation82019497 has transferd from C to Z the sum of 1000 ----remaining money 101000
-, Operation14270353 has transferd from U to Z the sum of 1000 ----remaining money 102000
-, Operation12398375 has transferd from C to Z the sum of 1000 ----remaining money 103000
-, Operation714404 has taken from account Z the sum of 1000 and put to account D ----remaining money 102000
-, Operation84024185 has taken from account Z the sum of 1000 and put to account F ----remaining money 101000
+, Operation61602356 has transferd from P to Z the sum of 1000 ----remaining money 101000
+, Operation75859646 has transferd from G to Z the sum of 1000 ----remaining money 102000
+, Operation39735605 has taken from account Z the sum of 1000 and put to account D ----remaining money 101000
+, Operation82324895 has taken from account Z the sum of 1000 and put to account Y ----remaining money 100000
+, Operation86762653 has taken from account Z the sum of 1000 and put to account D ----remaining money 99000
+, Operation66436687 has taken from account Z the sum of 1000 and put to account L ----remaining money 98000
+, Operation18730779 has transferd from S to Z the sum of 1000 ----remaining money 99000
+, Operation85362575 has taken from account Z the sum of 1000 and put to account I ----remaining money 98000
+, Operation77634325 has transferd from X to Z the sum of 1000 ----remaining money 99000
+, Operation9871642 has transferd from V to Z the sum of 1000 ----remaining money 100000
+, Operation50403728 has transferd from H to Z the sum of 1000 ----remaining money 101000
 ]
