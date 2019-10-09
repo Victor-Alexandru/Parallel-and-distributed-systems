@@ -1,0 +1,2 @@
+https://www.mkyong.com/java/java-thread-mutex-and-semaphore-example/
+https://www.youtube.com/watch?v=0nDYk8sV_jQ

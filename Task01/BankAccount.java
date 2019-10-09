@@ -69,7 +69,7 @@ public class BankAccount {
        public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
               Operation op = new Operation(534523);
               try {
-                     BankAccount.init(10000);
+                     BankAccount.init(100);
 
                      boolean flag = true;
 
@@ -91,7 +91,7 @@ public class BankAccount {
 
                      // System.out.println("Total execution time concurrent " + duration);
 
-                     // System.out.println("Programul o sa adoarma");
+                      System.out.println("Programul o sa adoarma");
                      TimeUnit.SECONDS.sleep(5);
                      System.out.println("Programul s-a trezit");
 
