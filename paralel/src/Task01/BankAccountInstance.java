@@ -46,7 +46,7 @@ public class BankAccountInstance {
             this.appendOperationToLogTransfer(operationName, destinationAccountName, sum);
 
         }
-        TimeUnit.SECONDS.sleep(3);
+//        TimeUnit.SECONDS.sleep(3);
         semaphore.release();
         System.out.println("lock released on : " + this.accountName);
         return true;

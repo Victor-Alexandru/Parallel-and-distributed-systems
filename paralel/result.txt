@@ -1,24 +1,150 @@
 [A
-, Operation 57581770 has transferd from [D] to [A] the sum of 200 ----remaining money 100200
-, Operation 59445215 has transferd from [C] to [A] the sum of 200 ----remaining money 100400
-, Operation 91057586 has transferd from [D] to [A] the sum of 200 ----remaining money 100600
-, Operation87902400 has taken from account [A] the sum of 200 and put to account [D] ----remaining money 100400
+, Operation79160152 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 99800
+, Operation66760877 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 99600
+, Operation43763542 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 99400
+, Operation 48984289 has transferd from [B] to [A] the sum of 200 ----remaining money 99600
+, Operation 65900683 has transferd from [B] to [A] the sum of 200 ----remaining money 99800
+, Operation 37597948 has transferd from [B] to [A] the sum of 200 ----remaining money 100000
+, Operation95539256 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 99800
+, Operation 55432306 has transferd from [B] to [A] the sum of 200 ----remaining money 100000
+, Operation81588457 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 99800
+, Operation29835468 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 99600
+, Operation3532510 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 99400
+, Operation 28018027 has transferd from [B] to [A] the sum of 200 ----remaining money 99600
+, Operation 96755414 has transferd from [B] to [A] the sum of 200 ----remaining money 99800
+, Operation 49490847 has transferd from [B] to [A] the sum of 200 ----remaining money 100000
+, Operation 44044118 has transferd from [B] to [A] the sum of 200 ----remaining money 100200
+, Operation74715404 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 100000
+, Operation 69429035 has transferd from [B] to [A] the sum of 200 ----remaining money 100200
+, Operation 50388269 has transferd from [B] to [A] the sum of 200 ----remaining money 100400
+, Operation 63951283 has transferd from [B] to [A] the sum of 200 ----remaining money 100600
+, Operation15148813 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 100400
+, Operation 99393836 has transferd from [B] to [A] the sum of 200 ----remaining money 100600
+, Operation 77731021 has transferd from [B] to [A] the sum of 200 ----remaining money 100800
+, Operation 86523647 has transferd from [B] to [A] the sum of 200 ----remaining money 101000
+, Operation41934005 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 100800
+, Operation 99674544 has transferd from [B] to [A] the sum of 200 ----remaining money 101000
+, Operation54021462 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 100800
+, Operation 30645052 has transferd from [B] to [A] the sum of 200 ----remaining money 101000
+, Operation 12516698 has transferd from [B] to [A] the sum of 200 ----remaining money 101200
+, Operation 67329287 has transferd from [B] to [A] the sum of 200 ----remaining money 101400
+, Operation 67447688 has transferd from [B] to [A] the sum of 200 ----remaining money 101600
+, Operation 83823592 has transferd from [B] to [A] the sum of 200 ----remaining money 101800
+, Operation 92869713 has transferd from [B] to [A] the sum of 200 ----remaining money 102000
+, Operation48931540 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101800
+, Operation9806958 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101600
+, Operation 34935244 has transferd from [B] to [A] the sum of 200 ----remaining money 101800
+, Operation40007990 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101600
+, Operation 6275536 has transferd from [B] to [A] the sum of 200 ----remaining money 101800
+, Operation 96810547 has transferd from [B] to [A] the sum of 200 ----remaining money 102000
+, Operation36018041 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101800
+, Operation3539569 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101600
+, Operation80960023 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101400
+, Operation 45764242 has transferd from [B] to [A] the sum of 200 ----remaining money 101600
+, Operation16637404 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101400
+, Operation 72856397 has transferd from [B] to [A] the sum of 200 ----remaining money 101600
+, Operation 97901744 has transferd from [B] to [A] the sum of 200 ----remaining money 101800
+, Operation 24798361 has transferd from [B] to [A] the sum of 200 ----remaining money 102000
+, Operation14910235 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101800
+, Operation 54863732 has transferd from [B] to [A] the sum of 200 ----remaining money 102000
+, Operation15053477 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101800
+, Operation 50683223 has transferd from [B] to [A] the sum of 200 ----remaining money 102000
+, Operation8723113 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101800
+, Operation99790430 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101600
+, Operation95373161 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101400
+, Operation 21903497 has transferd from [B] to [A] the sum of 200 ----remaining money 101600
+, Operation 46563036 has transferd from [B] to [A] the sum of 200 ----remaining money 101800
+, Operation 85988064 has transferd from [B] to [A] the sum of 200 ----remaining money 102000
+, Operation 13796412 has transferd from [B] to [A] the sum of 200 ----remaining money 102200
+, Operation58786219 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 102000
+, Operation92545111 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101800
+, Operation99574978 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101600
+, Operation 15812639 has transferd from [B] to [A] the sum of 200 ----remaining money 101800
+, Operation 72823472 has transferd from [B] to [A] the sum of 200 ----remaining money 102000
+, Operation87797463 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101800
+, Operation78756430 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101600
+, Operation 75982029 has transferd from [B] to [A] the sum of 200 ----remaining money 101800
+, Operation 33192125 has transferd from [B] to [A] the sum of 200 ----remaining money 102000
+, Operation48376846 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101800
+, Operation 74471270 has transferd from [B] to [A] the sum of 200 ----remaining money 102000
+, Operation10444038 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101800
+, Operation73888539 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101600
+, Operation 75044312 has transferd from [B] to [A] the sum of 200 ----remaining money 101800
+, Operation88919874 has taken from account [A] the sum of 200 and put to account [B] ----remaining money 101600
+, Operation 80544175 has transferd from [B] to [A] the sum of 200 ----remaining money 101800
 ]
 [B
-, Operation10989899 has taken from account [B] the sum of 200 and put to account [C] ----remaining money 99800
-, Operation26672775 has taken from account [B] the sum of 200 and put to account [C] ----remaining money 99600
-]
-[C
-, Operation59445215 has taken from account [C] the sum of 200 and put to account [A] ----remaining money 99800
-, Operation 10989899 has transferd from [B] to [C] the sum of 200 ----remaining money 100000
-, Operation 92627949 has transferd from [A] to [C] the sum of 200 ----remaining money 100200
-, Operation 26672775 has transferd from [B] to [C] the sum of 200 ----remaining money 100400
-, Operation92394585 has taken from account [C] the sum of 200 and put to account [D] ----remaining money 100200
-]
-[D
-, Operation57581770 has taken from account [D] the sum of 200 and put to account [A] ----remaining money 99800
-, Operation91057586 has taken from account [D] the sum of 200 and put to account [A] ----remaining money 99600
-, Operation 87902400 has transferd from [A] to [D] the sum of 200 ----remaining money 99800
-, Operation 92394585 has transferd from [C] to [D] the sum of 200 ----remaining money 100000
-, Operation 64754825 has transferd from [B] to [D] the sum of 200 ----remaining money 100200
+, Operation48984289 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 99800
+, Operation 79160152 has transferd from [A] to [B] the sum of 200 ----remaining money 100000
+, Operation 66760877 has transferd from [A] to [B] the sum of 200 ----remaining money 100200
+, Operation 43763542 has transferd from [A] to [B] the sum of 200 ----remaining money 100400
+, Operation65900683 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 100200
+, Operation37597948 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 100000
+, Operation 95539256 has transferd from [A] to [B] the sum of 200 ----remaining money 100200
+, Operation55432306 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 100000
+, Operation 81588457 has transferd from [A] to [B] the sum of 200 ----remaining money 100200
+, Operation 29835468 has transferd from [A] to [B] the sum of 200 ----remaining money 100400
+, Operation 3532510 has transferd from [A] to [B] the sum of 200 ----remaining money 100600
+, Operation28018027 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 100400
+, Operation96755414 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 100200
+, Operation49490847 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 100000
+, Operation44044118 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 99800
+, Operation 74715404 has transferd from [A] to [B] the sum of 200 ----remaining money 100000
+, Operation69429035 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 99800
+, Operation50388269 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 99600
+, Operation63951283 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 99400
+, Operation99393836 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 99200
+, Operation 15148813 has transferd from [A] to [B] the sum of 200 ----remaining money 99400
+, Operation77731021 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 99200
+, Operation86523647 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 99000
+, Operation 41934005 has transferd from [A] to [B] the sum of 200 ----remaining money 99200
+, Operation99674544 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 99000
+, Operation 54021462 has transferd from [A] to [B] the sum of 200 ----remaining money 99200
+, Operation30645052 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 99000
+, Operation12516698 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98800
+, Operation67329287 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98600
+, Operation83823592 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98400
+, Operation67447688 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98200
+, Operation 48931540 has transferd from [A] to [B] the sum of 200 ----remaining money 98400
+, Operation 9806958 has transferd from [A] to [B] the sum of 200 ----remaining money 98600
+, Operation92869713 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98400
+, Operation 3539569 has transferd from [A] to [B] the sum of 200 ----remaining money 98600
+, Operation 16637404 has transferd from [A] to [B] the sum of 200 ----remaining money 98800
+, Operation96810547 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98600
+, Operation34935244 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98400
+, Operation 40007990 has transferd from [A] to [B] the sum of 200 ----remaining money 98600
+, Operation6275536 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98400
+, Operation 36018041 has transferd from [A] to [B] the sum of 200 ----remaining money 98600
+, Operation 80960023 has transferd from [A] to [B] the sum of 200 ----remaining money 98800
+, Operation45764242 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98600
+, Operation72856397 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98400
+, Operation97901744 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98200
+, Operation24798361 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98000
+, Operation 14910235 has transferd from [A] to [B] the sum of 200 ----remaining money 98200
+, Operation54863732 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98000
+, Operation 15053477 has transferd from [A] to [B] the sum of 200 ----remaining money 98200
+, Operation50683223 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98000
+, Operation 8723113 has transferd from [A] to [B] the sum of 200 ----remaining money 98200
+, Operation 99790430 has transferd from [A] to [B] the sum of 200 ----remaining money 98400
+, Operation 95373161 has transferd from [A] to [B] the sum of 200 ----remaining money 98600
+, Operation21903497 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98400
+, Operation46563036 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98200
+, Operation85988064 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98000
+, Operation13796412 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 97800
+, Operation 58786219 has transferd from [A] to [B] the sum of 200 ----remaining money 98000
+, Operation 92545111 has transferd from [A] to [B] the sum of 200 ----remaining money 98200
+, Operation 99574978 has transferd from [A] to [B] the sum of 200 ----remaining money 98400
+, Operation15812639 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98200
+, Operation72823472 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98000
+, Operation 87797463 has transferd from [A] to [B] the sum of 200 ----remaining money 98200
+, Operation 78756430 has transferd from [A] to [B] the sum of 200 ----remaining money 98400
+, Operation75982029 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98200
+, Operation33192125 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98000
+, Operation 48376846 has transferd from [A] to [B] the sum of 200 ----remaining money 98200
+, Operation74471270 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98000
+, Operation 10444038 has transferd from [A] to [B] the sum of 200 ----remaining money 98200
+, Operation 73888539 has transferd from [A] to [B] the sum of 200 ----remaining money 98400
+, Operation75044312 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98200
+, Operation80544175 has taken from account [B] the sum of 200 and put to account [A] ----remaining money 98000
+, Operation 88919874 has transferd from [A] to [B] the sum of 200 ----remaining money 98200
 ]
