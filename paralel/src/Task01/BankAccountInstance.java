@@ -2,58 +2,110 @@ package Task01;
 /**
  * BankAccountInstance
  */
+
 import java.util.*;
-import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.Semaphore;
+import java.util.concurrent.TimeUnit;
+
 
 public class BankAccountInstance {
 
-       private List<String> logs;
-       String accountName;
-       Integer balance;
+    private static Integer classId = 1;
+    private Semaphore semaphore = new Semaphore(1, true);
+    private List<String> logs;
+    private int id;
+    private String accountName;
+    private Integer balance;
 
-       public BankAccountInstance(String name, Integer balance) {
-              this.logs = new ArrayList<String>();
-              this.accountName = name;
-              this.balance = balance;
-              this.logs.add(this.accountName + "\n");
-       }
+    BankAccountInstance(String name, Integer balance) {
+        this.id = BankAccountInstance.classId;
+        BankAccountInstance.classId = BankAccountInstance.classId + 1;
+        this.logs = new ArrayList<>();
+        this.accountName = name;
+        this.balance = balance;
+        this.logs.add(this.accountName + "\n");
+    }
 
-       public void appendOperationToLogTransfer(String operationName, BankAccountInstance b2, Integer sum) {
-              this.logs.add("Operation" + operationName + " has transferd from " + b2.getAccountName() + " to "
-                            + this.getAccountName() + " the sum of " + sum +  " ----remaining money "+this.getBalance()+'\n');
+    boolean lockBankAccountTransaction(String operationName, String destinationAccountName, Integer sum, String sign) throws InterruptedException {
 
-       }
+        System.out.println("try to lock  on :" + this.accountName);
+        semaphore.acquire();
+        System.out.println("lock aquired on :" + this.accountName);
+        if (sign.equals("-")) {
+            if (this.balance < sum) {
+                this.appendOperationToLogInssufficentFunds(operationName, destinationAccountName, sum);
+                semaphore.release();
+                return false;
+            } else {
+                this.balance -= sum;
+                this.appendOperationToLogDecrement(operationName, destinationAccountName, sum);
+            }
+        } else {
+            this.balance += sum;
+            this.appendOperationToLogTransfer(operationName, destinationAccountName, sum);
 
-       public void appendOperationToLogDecrement(String operationName, BankAccountInstance b2, Integer sum) {
-              this.logs.add("Operation" + operationName + " has taken from account " + this.getAccountName()
-                            + " the sum of " + sum + " and put to account " + b2.getAccountName() +  " ----remaining money "+this.getBalance()+ '\n');
+        }
+        TimeUnit.SECONDS.sleep(3);
+        semaphore.release();
+        System.out.println("lock released on : " + this.accountName);
+        return true;
+    }
 
-       }
+    boolean lockHasBalanceEnough(Integer sum) throws InterruptedException {
+        semaphore.acquire();
+        if (this.balance < sum) {
+            semaphore.release();
+            return false;
+        } else {
+            semaphore.release();
+            return true;
+        }
+    }
 
-       public void appendOperationToLogInssufficentFunds(String operationName, BankAccountInstance b2, Integer sum) {
-              this.logs.add("Insufficent money " + sum + " to transfer from " + this.getAccountName() + " to "
-                            + b2.getAccountName() + " ----remaining money "+this.getBalance()+ '\n');
+    void appendOperationToLogTransfer(String operationName, String destAccountName, Integer sum) {
+        this.logs.add("Operation " + operationName + " has transferd from [" + destAccountName + "] to ["
+                + this.getAccountName() + "] the sum of " + sum + " ----remaining money " + this.balance + '\n');
 
-       }
+    }
 
-       public void addBalance(Integer sum) {
-              this.balance += sum;
-       }
+    void appendOperationToLogDecrement(String operationName, String destAccountName, Integer sum) {
+        this.logs.add("Operation" + operationName + " has taken from account [" + this.getAccountName()
+                + "] the sum of " + sum + " and put to account [" + destAccountName + "] ----remaining money " + this.balance + '\n');
 
-       public void substractBalance(Integer sum) {
-              this.balance -= sum;
-       }
+    }
 
-       public List<String> getLogs() {
-              return this.logs;
-       }
+    void appendOperationToLogInssufficentFunds(String operationName, String destAccountName, Integer sum) {
+        this.logs.add("Insufficent money " + sum + " to transfer from " + this.getAccountName() + " to "
+                + destAccountName + " ----remaining money " + this.balance + '\n');
 
-       public String getAccountName() {
-              return this.accountName;
-       }
+    }
 
-       public Integer getBalance() {
-              return this.balance;
-       }
+    void addBalance(Integer sum) {
+        this.balance += sum;
+    }
+
+    void substractBalance(Integer sum) {
+        this.balance -= sum;
+    }
+
+    List<String> getLogs() {
+        return this.logs;
+    }
+
+    String getAccountName() {
+        return this.accountName;
+    }
+
+    Integer getBalance() {
+        return this.balance;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }

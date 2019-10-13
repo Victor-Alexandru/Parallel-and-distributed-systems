@@ -4,6 +4,7 @@ package Task01;
  */
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.Duration;
@@ -23,10 +24,10 @@ import java.util.Scanner;
 
 public class BankAccount {
 
-       public static List<BankAccountInstance> bankAccounts = new ArrayList<>();
-       public static List<ThreadOperation> threadOperations = new ArrayList<>();
+       private static List<BankAccountInstance> bankAccounts = new ArrayList<>();
+       private static List<ThreadOperation> threadOperations = new ArrayList<>();
 
-       public static List<String> getThreadsName(String fileName) throws Exception {
+       private static List<String> getThreadsName(String fileName) throws Exception {
               String data = "";
               data = new String(Files.readAllBytes(Paths.get(fileName)));
 
@@ -34,7 +35,7 @@ public class BankAccount {
               return items;
        }
 
-       public static void init(Integer numberOfOperations,Boolean useMutexex) throws Exception {
+       private static void init(Integer numberOfOperations, Boolean useMutexex) throws Exception {
 
 //              List<String> threadsName = BankAccount
 //                            .getThreadsName("C:\\Users\\VictorViena\\IdeaProjects\\paralel\\src\\Task01\\threadNames.txt");
@@ -43,7 +44,7 @@ public class BankAccount {
                       .getThreadsName("D:\\Paralel and Distributed Systems\\paralel\\src\\Task01\\threadNames.txt");
 
 
-              for (char alphabet = 'A'; alphabet <= 'Z'; alphabet++) {
+              for (char alphabet = 'A'; alphabet <= 'D'; alphabet++) {
                      BankAccount.bankAccounts.add(new BankAccountInstance(String.valueOf(alphabet), 100000));
               }
               for (int i = 1; i <= numberOfOperations; i++) {
@@ -54,7 +55,8 @@ public class BankAccount {
                                    .get(rand.nextInt(BankAccount.bankAccounts.size()));
                      if (b1 != b2) {
                             int randInt = rand.nextInt(100000000);
-                            int transferSum = rand.nextInt(5500);
+//                            int transferSum = rand.nextInt(5500);
+                            int transferSum = 200;
 
                              BankAccount.threadOperations
                              .add(new ThreadOperation(threadsName.get(i), b1, b2, transferSum, randInt,useMutexex));
@@ -64,12 +66,12 @@ public class BankAccount {
 
        }
 
-       public static  void clearInit(){
+       private static  void clearInit(){
               BankAccount.bankAccounts.clear();
               BankAccount.threadOperations.clear();
        }
 
-       public static void showMenu(){
+       private static void showMenu(){
               System.out.println("---------------------------------------------");
               System.out.println("1.Concurent with mutexes");
               System.out.println("2.Concurent with no  mutexes");
@@ -129,10 +131,10 @@ public class BankAccount {
                             }
 
                             System.out.println("Programul o sa adoarma");
-                            TimeUnit.SECONDS.sleep(10);
+                            TimeUnit.SECONDS.sleep(15);
                             System.out.println("Programul s-a trezit");
 
-                            PrintWriter writer = new PrintWriter("result.txt", "UTF-8");
+                            PrintWriter writer = new PrintWriter("result.txt", StandardCharsets.UTF_8);
                             BankAccount.bankAccounts.forEach((b) -> {
                                    writer.println(b.getLogs());
                             });

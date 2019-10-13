@@ -39,19 +39,13 @@ public class ThreadOperation implements Runnable {
     public void run() {
 
         if (useMutexes) {
-            System.out.println("--with mutexex--Thread " + this.threadName + ": Operation " +
-                    this.transferOperation.getUniqueId()
-                    + " on accounts " + this.b1.getAccountName() + ":" + this.b2.getAccountName()
-                    + " with the sum " + this.transferSum);
-
             try {
-                semaphore.acquire();
-                System.out.println("--with mutexex--Thread " + this.threadName + ": Operation "
-                        + this.transferOperation.getUniqueId() + " on accounts " + this.b1.getAccountName() + ":" + this.b2.getAccountName() + " with the sum " + this.transferSum);
-                this.transferOperation.transfer(this.b1, this.b2, this.transferSum);
-                semaphore.release();
+                this.transferOperation.lockTransfer(b1, b2, transferSum);
+                System.out.println("--with mutexex--Thread " + this.threadName + ": Operation " +
+                        this.transferOperation.getUniqueId()
+                        + " on accounts " + this.b1.getAccountName() + ":" + this.b2.getAccountName()
+                        + " with the sum " + this.transferSum);
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
 
@@ -66,7 +60,7 @@ public class ThreadOperation implements Runnable {
             Integer sum = this.transferSum;
 
             if (b1.getBalance() < sum) {
-                b1.appendOperationToLogInssufficentFunds(this.transferOperation.getUniqueId().toString(), b2, sum);
+                b1.appendOperationToLogInssufficentFunds(this.transferOperation.getUniqueId().toString(), b2.getAccountName(), sum);
             } else {
                 this.transferOperation.transfer(this.b1, this.b2, this.transferSum);
             }
