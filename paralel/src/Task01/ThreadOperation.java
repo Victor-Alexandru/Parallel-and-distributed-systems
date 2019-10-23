@@ -6,27 +6,28 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.Semaphore;
 import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
+import java.util.concurrent.TimeUnit;
 
 /**
  * ThreadOperation
  */
 public class ThreadOperation implements Runnable {
 
-    BankAccountInstance b1;
-    BankAccountInstance b2;
-    Integer transferSum;
+    private BankAccountInstance b1;
+    private BankAccountInstance b2;
+    private Integer transferSum;
     // our Semaphore is same as a Mutex.
     // official doc :
     // Semaphores in java are like Monitors and locks that provide mutual
     // exclusivity to multiple threads and make threads wait on certain condition to
     // be true.
     static Semaphore semaphore = new Semaphore(1, true);
-    Operation transferOperation;
-    String threadName;
-    Boolean useMutexes;
+    private Operation transferOperation;
+    private String threadName;
+    private Boolean useMutexes;
 
-    public ThreadOperation(String threadName, BankAccountInstance b1, BankAccountInstance b2, Integer transferSum,
-                           Integer operationId, Boolean useMutexes) {
+    ThreadOperation(String threadName, BankAccountInstance b1, BankAccountInstance b2, Integer transferSum,
+                    Integer operationId, Boolean useMutexes) {
         this.threadName = threadName;
         this.b1 = b1;
         this.b2 = b2;
@@ -37,7 +38,10 @@ public class ThreadOperation implements Runnable {
 
     @Override
     public void run() {
+        this.tranferFromAccounts();
+    }
 
+    private void tranferFromAccounts() {
         if (useMutexes) {
             try {
                 this.transferOperation.lockTransfer(b1, b2, transferSum);

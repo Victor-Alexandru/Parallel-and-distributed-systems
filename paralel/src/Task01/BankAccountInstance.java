@@ -64,14 +64,14 @@ public class BankAccountInstance {
     }
 
     void appendOperationToLogTransfer(String operationName, String destAccountName, Integer sum) {
-        this.logs.add("Operation " + operationName + " has transferd from [" + destAccountName + "] to ["
-                + this.getAccountName() + "] the sum of " + sum + " ----remaining money " + this.balance + '\n');
+        this.logs.add(operationName + ": [" + destAccountName + "] -> ["
+                + this.getAccountName() + "] :" + sum + " ----remaining money " + this.balance + '\n');
 
     }
 
     void appendOperationToLogDecrement(String operationName, String destAccountName, Integer sum) {
-        this.logs.add("Operation" + operationName + " has taken from account [" + this.getAccountName()
-                + "] the sum of " + sum + " and put to account [" + destAccountName + "] ----remaining money " + this.balance + '\n');
+        this.logs.add(operationName + ": [" + this.getAccountName()
+                + "] -> [" + destAccountName + "] :" + sum + "----remaining money " + this.balance + '\n');
 
     }
 
