@@ -59,7 +59,7 @@ public class BankAccount {
                 .getThreadsName("D:\\paralele\\Parallel-and-distributed-systems\\paralel\\src\\Task01\\threadNames.txt");
 
 
-        for (char alphabet = 'A'; alphabet <= 'B'; alphabet++) {
+        for (char alphabet = 'A'; alphabet <= 'E'; alphabet++) {
             BankAccount.bankAccounts.add(new BankAccountInstance(String.valueOf(alphabet), 100000));
         }
         int contoraudit = 0;
@@ -111,55 +111,56 @@ public class BankAccount {
             Integer nrOfOperations;
             boolean flag = true;
 
-            while (true) {
-                BankAccount.showMenu();
-                cmd = in.nextInt();
-                if (cmd == 0) {
+
+            BankAccount.showMenu();
+            cmd = in.nextInt();
+
+
+            System.out.println("The number of operations on accounts?");
+            nrOfOperations = in.nextInt();
+
+            switch (cmd) {
+                case 1: {
+                    BankAccount.init(nrOfOperations, true);
+                    ExecutorService executorService = Executors.newFixedThreadPool(16);
+                    BankAccount.threadOperations.forEach(executorService::execute);
+                    executorService.shutdown();
+                    BankAccount.awaitTerminationAfterShutdown(executorService);
                     break;
                 }
-
-                System.out.println("The number of operations on accounts?");
-                nrOfOperations = in.nextInt();
-
-                switch (cmd) {
-                    case 1: {
-                        BankAccount.init(nrOfOperations, true);
-                        ExecutorService executorService = Executors.newFixedThreadPool(16);
-                        BankAccount.threadOperations.forEach(executorService::execute);
-                        executorService.shutdown();
-                        BankAccount.awaitTerminationAfterShutdown(executorService);
-                        break;
-                    }
-                    case 2: {
-                        BankAccount.init(nrOfOperations, false);
-                        ExecutorService executorService = Executors.newFixedThreadPool(16);
-                        BankAccount.threadOperations.forEach(executorService::execute);
-                        executorService.shutdown();
-                        BankAccount.awaitTerminationAfterShutdown(executorService);
-                        break;
-                    }
-                    case 3: {
-                        BankAccount.init(nrOfOperations, false);
-                        long startTime = System.nanoTime();
-                        BankAccount.threadOperations.forEach(Runnable::run);
-                        long endTime = System.nanoTime();
-                        long durationNC = (endTime - startTime);
-                        System.out.println("Total execution time not concurrent " + durationNC);
-                        break;
-
-                    }
+                case 2: {
+                    BankAccount.init(nrOfOperations, false);
+                    ExecutorService executorService = Executors.newFixedThreadPool(16);
+                    BankAccount.threadOperations.forEach(executorService::execute);
+                    executorService.shutdown();
+                    BankAccount.awaitTerminationAfterShutdown(executorService);
+                    break;
+                }
+                case 3: {
+                    BankAccount.init(nrOfOperations, false);
+                    long startTime = System.nanoTime();
+                    BankAccount.threadOperations.forEach(Runnable::run);
+                    long endTime = System.nanoTime();
+                    long durationNC = (endTime - startTime);
+                    System.out.println("Total execution time not concurrent " + durationNC);
+                    break;
 
                 }
 
-
-                PrintWriter writer = new PrintWriter("result.txt", StandardCharsets.UTF_8);
-                BankAccount.bankAccounts.forEach((b) -> {
-                    writer.println(b.getLogs());
-                });
-                writer.close();
-                BankAccount.clearInit();
-
             }
+
+
+            PrintWriter writer = new PrintWriter("result.txt", StandardCharsets.UTF_8);
+            BankAccount.bankAccounts.forEach((b) -> {
+                writer.println(b.getLogs());
+            });
+            ExecutorService executorService = Executors.newFixedThreadPool(16);
+            executorService.execute(new Audit(BankAccount.bankAccounts, "auditFinal.txt"));
+            executorService.shutdown();
+            BankAccount.awaitTerminationAfterShutdown(executorService);
+            writer.close();
+            BankAccount.clearInit();
+
 
         } catch (Exception exception) {
             System.out.println(exception.getMessage());
