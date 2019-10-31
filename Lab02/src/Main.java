@@ -32,6 +32,11 @@ public class Main {
                 break;
 
         }
+        for (int row = 0; row < result.getRowsNumber(); row++){
+            for(int col = 0; col < result.getRowsNumber(); col++){
+                threads.get(result.index(row, col) % threadCount).addPoint(row,col);
+            }
+        }
 
         for (int i = 0; i < threadCount; i++) {
             threads.get(i).start();

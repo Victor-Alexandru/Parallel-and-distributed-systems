@@ -4,7 +4,9 @@ package Task01;
  * Operation
  */
 class Operation {
-
+    //this class takes to bankAccounts and
+    // makes a lock transfer if we need to use mutexes,between two accounts
+    //makes  a transfer withouth a lock if we didnt need to use mutexex between two accounts
     private Integer uniqueId;
 
     Operation(Integer uniqueId) {

@@ -3,14 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="5607529b-a276-4852-8753-dbfcfe033406" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab02/out/production/Lab02/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab02/out/production/Lab02/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab02/out/production/Lab02/threads/MatrixOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab02/out/production/Lab02/threads/MatrixOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab02/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab02/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab02/src/threads/MatrixOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab02/src/threads/MatrixOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auditFinal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/auditFinal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auditIntermediar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/auditIntermediar.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/paralel/Task01/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/paralel/Task01/BankAccount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/paralel/Task01/BankAccountInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/paralel/Task01/BankAccountInstance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/paralel/Task01/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/paralel/Task01/Operation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task01/Audit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task01/Audit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task01/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task01/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task01/BankAccountInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task01/BankAccountInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task01/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task01/Operation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,85 +29,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Task01/BankAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Task01/Audit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Task01/BankAccountInstance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-399">
-              <caret line="99" column="63" selection-start-line="99" selection-start-column="63" selection-end-line="99" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4132#4133#0" expanded="true" />
-                <element signature="e#4167#4168#0" expanded="true" />
-                <element signature="e#4209#4210#0" expanded="true" />
-                <element signature="e#4244#4245#0" expanded="true" />
-                <element signature="e#4274#4275#0" expanded="true" />
-                <element signature="e#4306#4307#0" expanded="true" />
-                <element signature="e#4337#4338#0" expanded="true" />
-                <element signature="e#4376#4377#0" expanded="true" />
-                <element signature="e#4404#4405#0" expanded="true" />
-                <element signature="e#4439#4440#0" expanded="true" />
-                <element signature="e#4465#4466#0" expanded="true" />
-                <element signature="e#4490#4491#0" expanded="true" />
-                <element signature="e#4523#4524#0" expanded="true" />
-                <element signature="e#4551#4552#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auditFinal.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auditIntermediar.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -129,13 +57,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Task01/TransferOperations.java" />
-        <option value="$PROJECT_DIR$/src/Task01/Operation.java" />
         <option value="$PROJECT_DIR$/src/Task01/ThreadOperation.java" />
         <option value="$PROJECT_DIR$/audit.txt" />
         <option value="$PROJECT_DIR$/src/Task01/Audit.java" />
-        <option value="$PROJECT_DIR$/src/Task01/BankAccountInstance.java" />
         <option value="$PROJECT_DIR$/auditIntermediar.txt" />
         <option value="$PROJECT_DIR$/src/Task01/BankAccount.java" />
+        <option value="$PROJECT_DIR$/src/Task01/BankAccountInstance.java" />
+        <option value="$PROJECT_DIR$/src/Task01/Operation.java" />
       </list>
     </option>
   </component>
@@ -181,7 +109,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab02" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -243,17 +171,18 @@
       <workItem from="1571862405224" duration="4421000" />
       <workItem from="1571933388610" duration="489000" />
       <workItem from="1571940660123" duration="4759000" />
+      <workItem from="1572003667575" duration="4788000" />
+      <workItem from="1572527151349" duration="680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23119000" />
+    <option name="totallyTimeSpent" value="28587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16979866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,7 +191,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3672806" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49291784" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.69880825" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,26 +259,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task01/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/audit.txt" />
     <entry file="file://$PROJECT_DIR$/paralel.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task01/ThreadOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" selection-start-line="23" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Task01/threadNames.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -370,7 +282,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Task01/Audit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="340">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -378,26 +290,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task01/BankAccountInstance.java">
+    <entry file="file://$PROJECT_DIR$/src/Task01/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="99" column="63" selection-start-line="99" selection-start-column="63" selection-end-line="99" selection-end-column="63" />
+        <state relative-caret-position="22">
+          <caret line="55" column="145" selection-start-line="55" selection-start-column="145" selection-end-line="55" selection-end-column="145" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4132#4133#0" expanded="true" />
-            <element signature="e#4167#4168#0" expanded="true" />
-            <element signature="e#4209#4210#0" expanded="true" />
-            <element signature="e#4244#4245#0" expanded="true" />
-            <element signature="e#4274#4275#0" expanded="true" />
-            <element signature="e#4306#4307#0" expanded="true" />
-            <element signature="e#4337#4338#0" expanded="true" />
-            <element signature="e#4376#4377#0" expanded="true" />
-            <element signature="e#4404#4405#0" expanded="true" />
-            <element signature="e#4439#4440#0" expanded="true" />
-            <element signature="e#4465#4466#0" expanded="true" />
-            <element signature="e#4490#4491#0" expanded="true" />
-            <element signature="e#4523#4524#0" expanded="true" />
-            <element signature="e#4551#4552#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -405,30 +303,49 @@
     <entry file="file://$PROJECT_DIR$/auditIntermediar.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auditFinal.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state>
+          <caret column="19" selection-start-column="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task01/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/result.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task01/ThreadOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task01/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="92" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task01/BankAccountInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3363#3364#0" expanded="true" />
+            <element signature="e#3398#3399#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -11,8 +11,11 @@ import java.util.concurrent.TimeUnit;
 
 public class BankAccountInstance {
 
+    // banck account model
+
     private static Integer classId = 1;
     private Semaphore semaphore = new Semaphore(1, true);
+    //semaphore is userful for locking the functions locking every instance of bank account
     private List<String> logs;
     private int id;
     private String accountName;
@@ -27,10 +30,12 @@ public class BankAccountInstance {
     }
 
     boolean lockBankAccountTransaction(String operationName, String destinationAccountName, Integer sum, String sign) throws InterruptedException {
-
+        // having some prints in the console
+        //locking the function
         System.out.println("try to lock  on :" + this.accountName);
         semaphore.acquire();
         System.out.println("lock aquired on :" + this.accountName);
+        //checking if we have money
         if (sign.equals("-")) {
             if (this.balance < sum) {
                 semaphore.release();
@@ -44,13 +49,13 @@ public class BankAccountInstance {
             this.appendOperationToLogTransfer(operationName, destinationAccountName, sum);
 
         }
-//        TimeUnit.SECONDS.sleep(3);
         semaphore.release();
         System.out.println("lock released on : " + this.accountName);
         return true;
     }
 
     boolean lockHasBalanceEnough(Integer sum) throws InterruptedException {
+        //lock and check if the account has enough money
         semaphore.acquire();
         if (this.balance < sum) {
             semaphore.release();
@@ -83,6 +88,7 @@ public class BankAccountInstance {
 
 
     public String getLockAudit()  {
+        //seeing on the log o f each account if there has been ocurring errors
         try {
             semaphore.acquire();
         } catch (InterruptedException e) {
@@ -91,6 +97,7 @@ public class BankAccountInstance {
         StringBuilder pString = new StringBuilder("For account " + this.getAccountName() + " thees are not consistent: \n");
         int startingSum = 100000;
         for (int i=0;i<this.getLogs().size();i++) {
+            //spliting every log and check if the sum is equal with the startingSum,for which we have applied some operation
             String operationLog = this.getLogs().get(i);
             String[] arrOfStr = operationLog.split(",");
             String operationName  = arrOfStr[0];
@@ -119,6 +126,7 @@ public class BankAccountInstance {
         return pString.toString();
     }
 
+    //adding and substrating the balance if it is the case
     void addBalance(Integer sum) {
         this.balance += sum;
     }
@@ -127,6 +135,7 @@ public class BankAccountInstance {
         this.balance -= sum;
     }
 
+    //getting the logs
     List<String> getLogs() {
         return this.logs;
     }

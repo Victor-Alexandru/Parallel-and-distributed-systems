@@ -52,12 +52,12 @@ public class BankAccount {
 
     private static void init(Integer numberOfOperations, Boolean useMutexex) throws Exception {
 
-//              List<String> threadsName = BankAccount
-//                            .getThreadsName("C:\\Users\\VictorViena\\IdeaProjects\\paralel\\src\\Task01\\threadNames.txt");
-
-        List<String> threadsName = BankAccount
-                .getThreadsName("D:\\paralele\\Parallel-and-distributed-systems\\paralel\\src\\Task01\\threadNames.txt");
-
+              List<String> threadsName = BankAccount
+                            .getThreadsName("C:\\paralel and distributed\\Parallel-and-distributed-systems\\paralel\\src\\Task01\\threadNames.txt");
+//
+//        List<String> threadsName = BankAccount
+//                .getThreadsName("D:\\paralele\\Parallel-and-distributed-systems\\paralel\\src\\Task01\\threadNames.txt");
+//
 
         for (char alphabet = 'A'; alphabet <= 'E'; alphabet++) {
             BankAccount.bankAccounts.add(new BankAccountInstance(String.valueOf(alphabet), 100000));
