@@ -1,0 +1,11 @@
+C:\paralel and distributed\Parallel-and-distributed-systems\Lab05\FuturesAndContinuations\FuturesAndContinuations\bin\Debug\netcoreapp3.0\FuturesAndContinuations.exe
+C:\paralel and distributed\Parallel-and-distributed-systems\Lab05\FuturesAndContinuations\FuturesAndContinuations\bin\Debug\netcoreapp3.0\FuturesAndContinuations.deps.json
+C:\paralel and distributed\Parallel-and-distributed-systems\Lab05\FuturesAndContinuations\FuturesAndContinuations\bin\Debug\netcoreapp3.0\FuturesAndContinuations.runtimeconfig.json
+C:\paralel and distributed\Parallel-and-distributed-systems\Lab05\FuturesAndContinuations\FuturesAndContinuations\bin\Debug\netcoreapp3.0\FuturesAndContinuations.runtimeconfig.dev.json
+C:\paralel and distributed\Parallel-and-distributed-systems\Lab05\FuturesAndContinuations\FuturesAndContinuations\bin\Debug\netcoreapp3.0\FuturesAndContinuations.dll
+C:\paralel and distributed\Parallel-and-distributed-systems\Lab05\FuturesAndContinuations\FuturesAndContinuations\bin\Debug\netcoreapp3.0\FuturesAndContinuations.pdb
+C:\paralel and distributed\Parallel-and-distributed-systems\Lab05\FuturesAndContinuations\FuturesAndContinuations\obj\Debug\netcoreapp3.0\FuturesAndContinuations.csprojAssemblyReference.cache
+C:\paralel and distributed\Parallel-and-distributed-systems\Lab05\FuturesAndContinuations\FuturesAndContinuations\obj\Debug\netcoreapp3.0\FuturesAndContinuations.AssemblyInfoInputs.cache
+C:\paralel and distributed\Parallel-and-distributed-systems\Lab05\FuturesAndContinuations\FuturesAndContinuations\obj\Debug\netcoreapp3.0\FuturesAndContinuations.AssemblyInfo.cs
+C:\paralel and distributed\Parallel-and-distributed-systems\Lab05\FuturesAndContinuations\FuturesAndContinuations\obj\Debug\netcoreapp3.0\FuturesAndContinuations.dll
+C:\paralel and distributed\Parallel-and-distributed-systems\Lab05\FuturesAndContinuations\FuturesAndContinuations\obj\Debug\netcoreapp3.0\FuturesAndContinuations.pdb
