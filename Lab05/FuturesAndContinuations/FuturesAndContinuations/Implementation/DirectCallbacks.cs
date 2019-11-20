@@ -114,7 +114,7 @@ namespace FuturesAndContinuations.Implementation
 
                 // get from the buffer, a number of characters <= to the buffer size, and store it in the responseContent
                 state.responseContent.Append(Encoding.ASCII.GetString(state.buffer, 0, bytesRead));
-
+                
                 // if the response header has not been fully obtained, get the next chunk of data
                 if (!HttpParser.responseHeaderFullyObtained(state.responseContent.ToString()))
                 {

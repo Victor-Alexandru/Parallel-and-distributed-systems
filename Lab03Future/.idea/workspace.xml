@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3441cf63-f6ae-430d-9828-b6a7e850428d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/.vs/FuturesAndContinuations/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/.vs/FuturesAndContinuations/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/.vs/FuturesAndContinuations/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/.vs/FuturesAndContinuations/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/Implementation/DirectCallbacks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/Implementation/DirectCallbacks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/UtilsTheory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/UtilsTheory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/bin/Debug/netcoreapp3.0/FuturesAndContinuations.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/bin/Debug/netcoreapp3.0/FuturesAndContinuations.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/bin/Debug/netcoreapp3.0/FuturesAndContinuations.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/bin/Debug/netcoreapp3.0/FuturesAndContinuations.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/obj/Debug/netcoreapp3.0/FuturesAndContinuations.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/obj/Debug/netcoreapp3.0/FuturesAndContinuations.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/obj/Debug/netcoreapp3.0/FuturesAndContinuations.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/obj/Debug/netcoreapp3.0/FuturesAndContinuations.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/obj/Debug/netcoreapp3.0/FuturesAndContinuations.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/FuturesAndContinuations/FuturesAndContinuations/obj/Debug/netcoreapp3.0/FuturesAndContinuations.pdb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,39 +24,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/runnables/MatrixOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-              <folding>
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/runnables/MatrixAddition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -102,14 +77,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/proiect colectiv/studyit-backend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -159,16 +135,17 @@
       <workItem from="1572889156074" duration="420000" />
       <workItem from="1572890354007" duration="694000" />
       <workItem from="1573231868720" duration="574000" />
+      <workItem from="1574014442255" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3047000" />
+    <option name="totallyTimeSpent" value="3113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -210,6 +187,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/runnables/MatrixOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -221,16 +205,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/runnables/MatrixAddition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="85">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>

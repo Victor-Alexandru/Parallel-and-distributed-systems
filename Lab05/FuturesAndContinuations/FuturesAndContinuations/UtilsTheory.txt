@@ -19,6 +19,8 @@ AsyncCallback Delegate -	References a method to be called when a corresponding a
 --
 8.Dns. DNS servers resolve host names to IP addresses. With the System.Net namespace in the .NET Framework, we easily perform this task.
 -----------------
+Represents a thread synchronization event that, when signaled, must be reset manually. This class cannot be inherited.
+
 Set -Sets the state of the event to signaled, allowing one or more waiting threads to proceed.
 WaitOne -Blocks the current thread until the current WaitHandle receives a signal.
 ----
@@ -38,7 +40,22 @@ A new Thread()is not dealing with Thread pool thread, whereas Task does use thre
 A Task is a higher level concept than Thread.
 -----------------------------------------------
 TaskFactory- Provides support for creating and scheduling Task objects.
+Task.Wait - Waits for the Task to complete execution.
+------
+await and async--
+When you use the await keyword in a method, it is suspended and the control is given back to the caller of your async method,
+until the work in the awaited method is done. 
+In a Console Application, the Main thread would finish its work so the program will exit.
+Task.WaitAll is blocking, while using await will make the containing method async. To wait for multiple tasks asynchronously you can use Task.WhenAll:
 
+C# 5 introduced the async and await keywords which are very useful for making calls to asynchronous methods without breaking the linear flow of the program.
+Note here that await is not blocking the current thread and the do something with res part is only executed when GetIntAsync is finished.
+
+The await keyword basically instructs the C# compiler to:
+
+take all statements after await
+package them into a lambda
+generate code that schedules the lambda for us
 
 
 
