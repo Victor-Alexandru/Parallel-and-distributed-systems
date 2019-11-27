@@ -1,8 +1,10 @@
+import java.util.concurrent.ExecutionException;
+
 public class Main {
 
-    public static void main(String[] args)  throws InterruptedException{
-        Polinom p = new Polinom(80);
-        Polinom q = new Polinom(80);
+    public static void main(String[] args)  throws InterruptedException ,ExecutionException{
+        Polinom p = new Polinom(8000);
+        Polinom q = new Polinom(8000);
 //		Polinom p = new Polinom(new ArrayList<Integer>(Arrays.asList(5, 4, 2, 4)));
 //		Polinom q = new Polinom(new ArrayList<Integer>(Arrays.asList(6, 3, 7)));
 
@@ -13,6 +15,20 @@ public class Main {
         System.out.println(base_seq(p, q).toString() + "\n");
         //1b
         System.out.println(parallel_base_seq(p, q).toString() + "\n");
+        //1c
+        System.out.println(kSeq(p, q).toString() + "\n");
+        //1d
+        System.out.println(kParalle(p, q).toString() + "\n");
+    }
+
+    private static Polinom kParalle(Polinom p, Polinom  q) throws ExecutionException,
+            InterruptedException {
+        long startTime = System.currentTimeMillis();
+        Polinom result4 = Operations.kParallel(p, q, 4);
+        long endTime = System.currentTimeMillis();
+        System.out.println("Karatsuba parallel : ");
+        System.out.println("Time elapsed : " + (endTime - startTime) + " ms");
+        return result4;
     }
 
     private static Polinom parallel_base_seq(Polinom p, Polinom q) throws InterruptedException {
@@ -33,12 +49,12 @@ public class Main {
         return result1;
     }
 
-    private static Polinom multiplication3(Polinom p, Polinom q) {
+    private static Polinom kSeq(Polinom p, Polinom q) {
         long startTime = System.currentTimeMillis();
-        Polinom result3 = Operations.multiplicationKaratsubaSequentialForm(p, q);
+        Polinom result3 = Operations.KaratsubaSequentialForm(p, q);
         long endTime = System.currentTimeMillis();
-        System.out.println("Karatsuba sequential multiplication of polynomials: ");
-        System.out.println("Execution time : " + (endTime - startTime) + " ms");
+        System.out.println("Karatsuba sequential: ");
+        System.out.println("Time elapsed : " + (endTime - startTime) + " ms");
         return result3;
     }
 }
