@@ -1,0 +1,26 @@
+in fiecare element din lista de thread-uri este un runnable care are primul numar al doilea numar si coada
+dar din al doilea element are  numarul curent ,elmentul din coada minus 2 si elementul din coada-1
+
+- se pornesc threadurile -> dupa se asteapta dupa ele
+
+
+
+The poll(long timeout, TimeUnit unit)
+method retrieves and removes element from head of this queue.
+If the queue is empty then it will, wait till a specified time for an element to become available.
+
+
+Parameters: The method takes two parameters:
+
+timeout (long) – how long to wait before giving up, in units of unit.
+unit (TimeUnit)- a TimeUnit determining how to interpret the timeout parameter.
+Return Value: The method returns the head of this queue, or null if the specified waiting time elapses before an element is available.
+Exception: The method throws InterruptedException if interrupted while waiting.
+
+
+COMPARE_TO
+Returns: This method returns the following:
+
+0: if the value of this BigInteger is equal to that of the BigInteger object passed as a parameter.
+1: if the value of this BigInteger is greater than that of the BigInteger object passed as a parameter.
+-1: if the value of this BigInteger is less than that of the BigInteger object passed as a parameter.
