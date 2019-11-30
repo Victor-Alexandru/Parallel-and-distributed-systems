@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aba1e3ea-d0a7-4626-93fd-96b051d8e963" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Lab 6 New/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab 6 New/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab 6 New/out/production/Lab 6 New/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab 6 New/out/production/Lab 6 New/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab 6 New/out/production/Lab 6 New/PolynomialOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab 6 New/out/production/Lab 6 New/PolynomialOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab 6 New/src/PolynomialOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab 6 New/src/PolynomialOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="aba1e3ea-d0a7-4626-93fd-96b051d8e963" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/binaryTreeAlgorithm/BinaryTreePrefixes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="61" />
+            <state relative-caret-position="391">
+              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,7 +38,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-328">
+            <state relative-caret-position="17">
               <caret line="17" column="103" selection-start-line="17" selection-start-column="103" selection-end-line="17" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,6 +77,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,14 +108,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/ParallelAndDistributedProgramming/laboratory7/7.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -171,11 +165,12 @@
       <workItem from="1574961446693" duration="1358000" />
       <workItem from="1575040964360" duration="366000" />
       <workItem from="1575043150824" duration="2721000" />
+      <workItem from="1575140511978" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10428000" />
+    <option name="totallyTimeSpent" value="10448000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -189,7 +184,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20268457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -258,6 +253,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/binaryTreeAlgorithm/BinaryTreePrefixes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/binaryTreeAlgorithm/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -265,19 +270,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/binaryTreeAlgorithm/BinaryTreePrefixes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328">
+        <state relative-caret-position="17">
           <caret line="17" column="103" selection-start-line="17" selection-start-column="103" selection-end-line="17" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
