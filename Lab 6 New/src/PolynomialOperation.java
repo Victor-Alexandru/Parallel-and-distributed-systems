@@ -61,7 +61,6 @@ public class PolynomialOperation {
 		if (step == 0) {
 			step = 1;
 		}
-		//System.out.println("STEP: " + step);
 		int end;
 		for (int i = 0; i < result.getLength(); i += step) {
 			end = i + step;
@@ -144,8 +143,7 @@ public class PolynomialOperation {
 		//calculate the final result
 		Polynomial r1 = shift(z3, 2 * len);
 		Polynomial r2 = shift(subtract(subtract(z2, z3), z1), len);
-		Polynomial result = add(add(r1, r2), z1);
-		return result;
+		return add(add(r1, r2), z1);
 	}
 
 	/**

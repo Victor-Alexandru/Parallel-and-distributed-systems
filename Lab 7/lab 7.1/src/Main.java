@@ -15,7 +15,7 @@ public class Main {
         Algorithm NORMAL_PREFIXES = new NormalPrefixes();
         Algorithm LOGARITHMIC_PREFIXES = new BinaryTreePrefixes();
 
-        List<Integer> input = Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
+        List<Integer> input = Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,17);
         List<Integer> result = LOGARITHMIC_PREFIXES.getPrefixes(input, 1);
 
         System.out.println("input              = " + input);
