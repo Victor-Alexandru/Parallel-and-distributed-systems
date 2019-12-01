@@ -4,13 +4,13 @@ import java.util.concurrent.locks.Lock;
 
 public class Task implements Runnable {
 
-    private DirectedGraph graph;
+    private DGraph graph;
     private int startingNode;
     private List<Integer> path;
     private Lock lock;
     private List<Integer> result;
 
-    Task(DirectedGraph graph, int node, List<Integer> result, Lock lock) {
+    Task(DGraph graph, int node, List<Integer> result, Lock lock) {
         this.graph = graph;
         this.startingNode = node;
         path = new ArrayList<>();

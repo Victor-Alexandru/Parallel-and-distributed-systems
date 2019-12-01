@@ -1,0 +1,13 @@
+Un drum hamiltonian este un drum care vizitează fiecare nod al grafului exact o dată.
+Un graf este hamiltonian-conex dacă pentru fiecare pereche de noduri există un drum hamiltonian între ele.
+
+Un ciclu Hamiltonian este un ciclu care vizitează fiecare nod o singură dată (cu excepția nodului care este și primul și ultimul).
+Un graf care conține un ciclu hamiltonian se numește graf hamiltonian.
+
+http://infoscience.3x.ro/c++/Graf_hamiltonian.htm
+
+
+- Generate directed graph,add hamiltonian cycle and then random edges
+- for parralel use 4 threads and for sequencial use 1 thread
+
+-- are aceiasi lista  si cand gaseste un ciclu face lock pe lista si adauga unde trebuie ciclu
