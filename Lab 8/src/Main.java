@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -11,44 +10,41 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        int GRAPHS_COUNT = 101;
-
         List<DGraph> graphs = new ArrayList<>();
 
-        for (int i = 1; i <= GRAPHS_COUNT; i++) {
-            graphs.add(new DGraph(i * 10));
-        }
+        graphs.add(new DGraph(100));
+        graphs.add(new DGraph(500));
+        graphs.add(new DGraph(1000));
 
-        System.out.println("Sequential");
-        batchTesting(graphs, 1);
+        System.out.println("One thread aka sequencial");
+        FindCycle(graphs, 1);
 
-        System.out.println("Parallel");
-        batchTesting(graphs, 4);
+        System.out.println("4 Threads aka Paralel");
+        FindCycle(graphs, 4);
+
+
+        System.out.println("8 Threads aka Paralel");
+        FindCycle(graphs, 8);
 
     }
 
-    private static void batchTesting(List<DGraph> graphs, int threadCount) throws InterruptedException {
+    private static void FindCycle(List<DGraph> graphs, int threadCount) throws InterruptedException {
         for (int i = 0; i < graphs.size(); i++) {
-            test(i, graphs.get(i), threadCount);
+            long startTime = System.nanoTime();
+            findCycle(graphs.get(i), threadCount);
+            long endTime = System.nanoTime();
+            long duration = (endTime - startTime) / 1000000;
+            System.out.println("Number of nodes " + graphs.get(i).size() + ": " + duration + " ms");
         }
     }
 
-    private static void test(int level, DGraph graph, int threadCount) throws InterruptedException {
-        long startTime = System.nanoTime();
-        findHamiltonian(graph, threadCount);
-        long endTime = System.nanoTime();
-        long duration = (endTime - startTime) / 1000000;
-        if (level == 1 || level == 50 || level == 100)
-            System.out.println("Level " + level + ": " + duration + " ms");
-    }
-
-    private static void findHamiltonian(DGraph graph, int threadCount) throws InterruptedException {
+    private static void findCycle(DGraph graph, int threadCount) throws InterruptedException {
         ExecutorService pool = Executors.newFixedThreadPool(threadCount);
         Lock lock = new ReentrantLock();
         List<Integer> result = new ArrayList<>(graph.size());
 
         for (int i = 0; i < graph.size(); i++) {
-            pool.execute(new Task(graph, i, result, lock));
+            pool.execute(new FindingTask(graph, i, result, lock));
         }
 
         pool.shutdown();

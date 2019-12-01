@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.locks.Lock;
 
-public class Task implements Runnable {
+public class FindingTask implements Runnable {
 
     private DGraph graph;
     private int startingNode;
@@ -10,7 +10,7 @@ public class Task implements Runnable {
     private Lock lock;
     private List<Integer> result;
 
-    Task(DGraph graph, int node, List<Integer> result, Lock lock) {
+    FindingTask(DGraph graph, int node, List<Integer> result, Lock lock) {
         this.graph = graph;
         this.startingNode = node;
         path = new ArrayList<>();
