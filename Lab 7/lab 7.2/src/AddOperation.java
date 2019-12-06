@@ -92,6 +92,7 @@ public class AddOperation implements Runnable {
     }
 
     private void splitNumberInQueueIN(BigInteger number) {
+        //transfors the first number in a queue
         this.firstPipe.clear();
 
         while (number.compareTo(BigInteger.ZERO) != 0) {
