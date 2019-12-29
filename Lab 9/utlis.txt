@@ -1,0 +1,12 @@
+MPI tutorial:
+https://www.youtube.com/watch?v=Udn9wmmb9YY
+MPI python :
+https://mpi4py.readthedocs.io/en/stable/tutorial.html
+--------------------------------------------
+The isend() and irecv() methods return Request instances;
+completion of these methods can be managed using the test() and wait() methods of the Request class.
+--------------------------------------------
+The recv() and irecv() methods may be passed a buffer object that can be repeatedly used to receive messages avoiding internal memory allocation
+-------------------------------
+Tutorials:
+https://www.geeksforgeeks.org/multiply-two-polynomials-2/
