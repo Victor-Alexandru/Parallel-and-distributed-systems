@@ -70,3 +70,5 @@ def karatsuba_mpi(x, y):
 
 
 print('result: ', karatsuba_mpi(12, 12))
+
+#rulare : mpiexec -n 4 python main.py

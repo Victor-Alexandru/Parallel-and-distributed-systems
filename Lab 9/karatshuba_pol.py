@@ -1,3 +1,9 @@
+from mpi4py import MPI
+
+comm = MPI.COMM_WORLD
+rank = comm.Get_rank()
+p = comm.Get_size()
+
 # Input: A : polynomial of degree at most n − 1 with n = 2k for k ∈ N
 # Input: B : polynomial of degree at most n − 1
 # Output: C : polynomial
@@ -32,8 +38,24 @@
 #         return add(add(r1, r2), z1);
 #     }
 
-A = [1, 2, 3, 4]
-B = [1, 1, 1, 2]
+A = [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4]
+B = [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4]
+
+low_first_A = A[:len(A) // 2]
+high_first_A = A[len(A) // 2:]
+low_first_B = B[:len(B) // 2]
+high_first_B = B[len(B) // 2:]
+
+
+def printPoly(poly, n,fr):
+    for i in range(n):
+        print(poly[i], end="")
+        if (i != 0):
+            print("x^", i, end="")
+        if (i != n - 1):
+            print(" + ", end="")
+
+        # Driver Code
 
 
 def multiply(A, B, m, n):
@@ -56,10 +78,10 @@ def complete_pol(z1, offset):
 def last_karat_part(z1, z2, z3):
     result = [0] * (len(B) + len(A) - 1)
     r1 = complete_pol(z1, len(z1) * 2)
-    r2 = complete_pol(z1, len(z2) * 2)
+    r2 = complete_pol(z1 + z3, len(z2) * 2)
 
     for i in range((len(B) + len(A) - 1)):
-        result[i] = r1[i] + r2[i] if i < len(z1) else r2[i]
+        result[i] = r2[i] + r1[i]
 
     return result
 
@@ -77,11 +99,28 @@ def karatsuba_pol(A, B):
                            [low_first_B[i] + high_first_B[i] for i in range(len(high_first_B))])
         z3 = karatsuba_pol(high_first_A, high_first_B)
 
-        print(z1)
-        print(z2)
-        print(z3)
-        return last_karat_part(z1, z2, z3);
+        return [z2[i] - z2[i] + z3[i] for i in range(len(z1))]
 
 
-print(multiply(A, B, len(A), len(B)))
-print(karatsuba_pol(A, B))
+if rank == 0:
+    result_rank_one = comm.recv(source=1)
+    result_rank_two = comm.recv(source=2)
+    result_rank_three = comm.recv(source=3)
+
+    final_rez = complete_pol(
+        [result_rank_two[i] - result_rank_one[i] + result_rank_three[i] for i in range(len(result_rank_one))], len(A))
+    # print(final_rez)
+    printPoly(multiply(A, B, len(A), len(B)), len(A) + len(B) - 1, final_rez)
+
+elif rank == 1:
+    result = karatsuba_pol(low_first_A, low_first_B)
+    comm.send(result, dest=0, )
+elif rank == 2:
+    result = karatsuba_pol([low_first_A[i] + high_first_A[i] for i in range(len(low_first_A))],
+                           [low_first_B[i] + high_first_B[i] for i in range(len(high_first_B))])
+    comm.send(result, dest=0, )
+elif rank == 3:
+    result = karatsuba_pol(high_first_A, high_first_B)
+    comm.send(result, dest=0, )
+
+# rulare : mpiexec -n 4 python karatshuba_pol.py
