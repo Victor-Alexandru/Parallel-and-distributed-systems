@@ -67,4 +67,6 @@ def karatsuba_mpi(x, y):
         return int(s1 * (10 ** (m * 2)) + s4 * (10 ** m) + s2)
 
 
+
+
 print('result: ', karatsuba_mpi(12, 12))

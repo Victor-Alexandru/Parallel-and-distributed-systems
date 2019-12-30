@@ -82,3 +82,5 @@ elif rank == 3:
 elif rank == 4:
     multiply(A, B, m, n, result, 3 * split_phase, len(A))
     comm.send(result, dest=0, )
+
+#rulare : mpiexec -n 5 python pol_mult_mpi.py

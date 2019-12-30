@@ -10,3 +10,10 @@ The recv() and irecv() methods may be passed a buffer object that can be repeate
 -------------------------------
 Tutorials:
 https://www.geeksforgeeks.org/multiply-two-polynomials-2/
+
+---All three approach descriebed
+http://www.maia.ub.es/dsg/sam07/sam07mul.pdf -- pagina 32 in jos
+https://eprint.iacr.org/2006/224.pdf page 3
+https://ikatanic.github.io/2018/09/22/polynomial-multiplication/
+
+-- rulare : mpiexec -n 5 python pol_mult_mpi.py
