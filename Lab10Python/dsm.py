@@ -1,3 +1,9 @@
+from mpi4py import MPI
+
+comm = MPI.COMM_WORLD
+rank = comm.Get_rank()
+
+
 class SubscribeMessage:
     def __init__(self, var, rank):
         self.var = var
@@ -18,7 +24,7 @@ class ChangeMessage:
 
 
 class Message:
-    def __init__(self, exit):
+    def __init__(self, ):
         self._exit = False
         self._update_message = None
         self._change_message = None
@@ -63,6 +69,18 @@ class DSM:
             self.b = value
         elif variable_name == "c":
             self.c = value
+
+    def sendAll(self, msg):
+        for i in range(3):
+            if rank == i:
+                continue
+            comm.send(msg, dest=i)
+
+    def subscriebe_to_two(self, var):
+        self._subscribers[var].append(rank)
+        msg = Message()
+        msg.set_subscribe_message(SubscribeMessage(var, rank))
+        self.sendAll(msg)
 
     def is_subscribed(self, variable, rank):
         return rank in self._subscribers[variable]
