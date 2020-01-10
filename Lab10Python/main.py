@@ -1,0 +1,39 @@
+import math
+from dsm import *
+from mpi4py import MPI
+
+comm = MPI.COMM_WORLD
+rank = comm.Get_rank()
+print("HELLO WORLD this is my rank", rank)
+p = comm.Get_size()
+
+
+def listen_thread(dsm):
+    while True:
+        print("Rank " + rank + " waiting ")
+        msg = comm.recv(source=MPI.ANY_SOURCE, tag=MPI.ANY_TAG, )
+        if msg.must_exit():
+            break
+        if msg.get_update_message() is not None:
+            print(
+                "Rank " + rank + " received : " + msg.get_update_message().var + " -> " + msg.get_update_message().value)
+            dsm.set_variable(msg.get_update_message().var, msg.get_update_message().value)
+        if msg.get_subscribe_message() is not None:
+            print(
+                "Rank " + rank + " received : " + msg.get_subscribe_message().rank + "  sub to  " + msg.get_subscribe_message().var)
+            dsm.subscribe_to(msg.get_subscribe_message().var, msg.get_subscribe_message().rank)
+
+
+def write_variables(dsm):
+    print("Rank " + rank + " a= " + dsm.a + " b= " + dsm.b + " c= " + dsm.c + " subs: ")
+    for key, value in dsm._subscribers.items():
+        rez_string = key + " : [ "
+        for curr_rank in value:
+            rez_string += curr_rank + " "
+        rez_string += " ] "
+        print(rez_string)
+
+#GicaGica12323
+def main_program():
+    dsm = DSM()
+
