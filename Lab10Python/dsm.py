@@ -72,14 +72,13 @@ class DSM:
 
     def sendAll(self, msg):
         for i in range(3):
-            if rank == i:
-                continue
             comm.send(msg, dest=i)
 
     def subscriebe_to_two(self, var):
         self._subscribers[var].append(rank)
         msg = Message()
         msg.set_subscribe_message(SubscribeMessage(var, rank))
+        print("inainte sa se trimita ")
         self.sendAll(msg)
 
     def is_subscribed(self, variable, rank):

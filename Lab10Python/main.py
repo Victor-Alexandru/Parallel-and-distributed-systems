@@ -45,6 +45,7 @@ def main_program():
         thread = Thread(target=listen_thread, args=(dsm,))
         thread.start()
         thread.join()
+        print("eeeee")
         exit = False
         dsm.subscriebe_to_two("a")
         dsm.subscriebe_to_two("b")
