@@ -1,8 +1,5 @@
 from mpi4py import MPI
 
-comm = MPI.COMM_WORLD
-rank = comm.Get_rank()
-
 
 class SubscribeMessage:
     def __init__(self, var, rank):
@@ -58,7 +55,7 @@ class DSM:
         self.a = 9
         self.b = 10
         self.c = 11
-        self._subscribers['a'] = []
+        self._subscribers['a'] = [1]
         self._subscribers['b'] = []
         self._subscribers['c'] = []
 
@@ -70,16 +67,19 @@ class DSM:
         elif variable_name == "c":
             self.c = value
 
-    def sendAll(self, msg):
-        for i in range(3):
-            comm.send(msg, dest=i)
+    def sendAll(self, msg, rank, comm):
+        for i in range(2):
+            if i != rank:
+                print("Rankul :", rank, "a trimis un mesaj spre ", i)
+                comm.Send(msg, dest=i)
+                print("Mesaj trimis")
 
-    def subscriebe_to_two(self, var):
+    def subscriebe_to_two(self, var, comm):
+        rank = comm.Get_rank()
         self._subscribers[var].append(rank)
         msg = Message()
         msg.set_subscribe_message(SubscribeMessage(var, rank))
-        print("inainte sa se trimita ")
-        self.sendAll(msg)
+        self.sendAll(msg, rank, comm)
 
     def is_subscribed(self, variable, rank):
         return rank in self._subscribers[variable]
