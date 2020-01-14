@@ -106,12 +106,10 @@ def listen_thread(dsm):
 
         print("am primit mesaj")
 
-
         if msg[0] == "subscribe":
             subsc_mesasge = SubscribeMessage(msg[2], msg[1])
             msg = Message()
             msg.set_subscribe_message(subsc_mesasge)
-            
 
         if msg.must_exit():
             break
@@ -164,8 +162,27 @@ def main_program(flag=True):
         thread.start()
         dsm.subscribe_to("b")
 
-
-main_program()
+def fct():
+    flag = True
+    while flag:
+        print("Rank " + str(rank) + " waiting ")
+        msg = comm.recv(source=0)
+        print("am primit mesaj",msg)
+        # if msg:
+        #     flag = False
+if rank == 0:
+    exit = False
+    sleep(1)
+    comm.send(["subscribe",'A','b'], dest=1)
+elif rank == 1:
+    dsm = DSM()
+    # thread = Thread(target=listen_thread, args=(dsm,))
+    # thread.start()
+    # thread.join()
+    thread = Thread(target=fct, args=())
+    thread.start()
+# main_program()
 print(" Programul cu rank ", rank, "  a terminat treaba")
+
 
 # rulare : mpiexec -n 3 python main.py
