@@ -16,7 +16,7 @@ public class Image {
     private int[][] b;
     private int[][] grayScale;
     private int[][][] blurMatrix;
-    int blurSize;
+    private int blurSize;
 
     private int nrThreads = 10;
 
@@ -90,6 +90,7 @@ public class Image {
         }
     }
 
+    //here we are using the threads
     private void grayScaleImageFilter() {
         ExecutorService executorService = Executors.newFixedThreadPool(nrThreads);
 

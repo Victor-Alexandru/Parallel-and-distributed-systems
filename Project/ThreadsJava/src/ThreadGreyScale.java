@@ -20,7 +20,7 @@ public class ThreadGreyScale implements Runnable {
     @Override
     public void run() {
         for (int j = 0; j < width; j++) {
-            int sum = (int) (r[i][j] * 0.299 + g[i][j] * 0.587 + b[i][j] * 0.114);
+            int sum = (int) (r[i][j] + g[i][j] + b[i][j] )/3;
             if (sum > 255)
                 grayScale[i][j] = 255;
             else
