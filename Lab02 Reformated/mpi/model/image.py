@@ -74,7 +74,7 @@ class ImagePrint:
         name = self.image.filename[:len(self.image.filename) - 4]
 
         img.save(
-            'D:\\PPD GIT Victor\\Parallel-and-distributed-systems\\Project\\mpi\\results\\' + name + 'grayscale.jpg')
+            'C:\\university\\Parallel-and-distributed-systems\\Lab02 Reformated\\mpi\\results\\' + name + 'grayscale.jpg')
 
     def transform_save_white(self, raw_rgb_values):
 
@@ -84,7 +84,7 @@ class ImagePrint:
 
         name = self.image.filename[:len(self.image.filename) - 4]
 
-        img.save('D:\\PPD GIT Victor\\Parallel-and-distributed-systems\\Project\\mpi\\results\\' + name + 'white.jpg')
+        img.save('C:\\university\\Parallel-and-distributed-systems\\Lab02 Reformated\\mpi\\results\\' + name + 'white.jpg')
 
 
 # Test done for logging purposes --liniar run
