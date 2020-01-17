@@ -1,4 +1,4 @@
-public class ThreadGreyScale implements Runnable {
+public class GreyScaleRunnable implements Runnable {
     private int width;
     private int i;
 
@@ -7,7 +7,7 @@ public class ThreadGreyScale implements Runnable {
     private int[][] b;
     private int[][] grayScale;
 
-    public ThreadGreyScale(int i, int width, int[][] r, int[][] g, int[][] b, int[][] grayScale) {
+    public GreyScaleRunnable(int i, int width, int[][] r, int[][] g, int[][] b, int[][] grayScale) {
         this.i = i;
         this.width = width;
         this.r = r;
@@ -20,7 +20,7 @@ public class ThreadGreyScale implements Runnable {
     @Override
     public void run() {
         for (int j = 0; j < width; j++) {
-            int sum = (int) (r[i][j] + g[i][j] + b[i][j] )/3;
+            int sum = (int) (r[i][j] * 0.299 + g[i][j] * 0.587 + b[i][j] * 0.144);
             if (sum > 255)
                 grayScale[i][j] = 255;
             else

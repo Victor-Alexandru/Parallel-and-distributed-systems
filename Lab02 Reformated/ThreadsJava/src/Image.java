@@ -11,20 +11,14 @@ public class Image {
     private int width;
     private String filePath;
 
-    private int[][] r;
-    private int[][] g;
-    private int[][] b;
+    private int[][] redValuesMatrix;
+    private int[][] greenValuesMatrix;
+    private int[][] blueValuesMatrix;
     private int[][] grayScale;
-    private int[][][] blurMatrix;
-    private int blurSize;
+    private int[][] whiteFilter;
 
     private int nrThreads = 10;
 
-    public Image(String filePath, int blurSize) {
-        this.filePath = filePath;
-        this.blurSize = blurSize;
-        readImageFromFile();
-    }
 
     public Image(String filePath) {
         this.filePath = filePath;
@@ -32,31 +26,32 @@ public class Image {
     }
 
     private void readImageFromFile() {
+        // given the file path we read the image and complete the rgb matrixes and initialize the  grayscale matrix
         BufferedImage img = null;
         try {
             img = ImageIO.read(new File(filePath));
             height = img.getHeight();
             width = img.getWidth();
-            r = new int[height][width];
-            g = new int[height][width];
-            b = new int[height][width];
+            redValuesMatrix = new int[height][width];
+            greenValuesMatrix = new int[height][width];
+            blueValuesMatrix = new int[height][width];
             grayScale = new int[height][width];
-            blurMatrix = new int[height][width][3];
+            whiteFilter = new int[height][width];
 
             int[] aux;
             for (int i = 0; i < height; i++)
                 for (int j = 0; j < width; j++) {
                     aux = img.getRaster().getPixel(j, i, new int[3]);
-                    r[i][j] = aux[0];
-                    g[i][j] = aux[1];
-                    b[i][j] = aux[2];
+                    redValuesMatrix[i][j] = aux[0];
+                    greenValuesMatrix[i][j] = aux[1];
+                    blueValuesMatrix[i][j] = aux[2];
                 }
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    private int[][][] createPixelMatrix(int[][] r, int[][] g, int[][] b) {
+    private int[][][] makeRGBMatrix(int[][] r, int[][] g, int[][] b) {
         int[][][] pixelMatrix = new int[height][width][3];
 
         for (int i = 0; i < height; i++)
@@ -71,11 +66,8 @@ public class Image {
         return pixelMatrix;
     }
 
-    public void exportImageToFile(String filePath) {
-        exportImage(filePath, createPixelMatrix(r, g, b));
-    }
 
-    private void exportImage(String fileName, int[][][] pixelMatrix) {
+    private void saveConstrucedImageToDisc(String fileName, int[][][] pixelMatrix) {
         BufferedImage img = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
         for (int i = 0; i < height; i++)
             for (int j = 0; j < width; j++) {
@@ -91,11 +83,11 @@ public class Image {
     }
 
     //here we are using the threads
-    private void grayScaleImageFilter() {
+    private void grayScaleMatrixConstructor() {
         ExecutorService executorService = Executors.newFixedThreadPool(nrThreads);
 
         for (int i = 0; i < height; i++) {
-            executorService.execute(new ThreadGreyScale(i, width, r, g, b, grayScale));
+            executorService.execute(new GreyScaleRunnable(i, width, redValuesMatrix, greenValuesMatrix, blueValuesMatrix, grayScale));
         }
 
         executorService.shutdown();
@@ -106,29 +98,11 @@ public class Image {
         }
     }
 
-    public float exportGrayScaleImageToFile(String fileName) {
-        float start = System.nanoTime() / 1000000;
-        grayScaleImageFilter();
-        exportImage(fileName, createPixelMatrix(grayScale, grayScale, grayScale));
-        float end = System.nanoTime() / 1000000;
-
-        return (end - start) / 1000;
-    }
-
-    public float exportGaussianBlurImageToFile(String fileName) {
-        float start = System.nanoTime() / 1000000;
-        gaussianBlurImageFilter();
-        exportImage(fileName, blurMatrix);
-        float end = System.nanoTime() / 1000000;
-
-        return (end - start) / 1000;
-    }
-
-    private void gaussianBlurImageFilter() {
+    private void whiteFilterMatrixConstructor() {
         ExecutorService executorService = Executors.newFixedThreadPool(nrThreads);
 
         for (int i = 0; i < height; i++) {
-            executorService.execute(new ThreadBlur(i, height, width, blurSize, r, g, b, blurMatrix));
+            executorService.execute(new WhiteFilterRunnable(i, width, redValuesMatrix, greenValuesMatrix, blueValuesMatrix, whiteFilter));
         }
 
         executorService.shutdown();
@@ -138,4 +112,24 @@ public class Image {
             System.out.println(e.getMessage());
         }
     }
+
+    public float saveGrayscaleToFile(String fileName) {
+        float start = System.nanoTime() / 1000000;
+        grayScaleMatrixConstructor();
+        saveConstrucedImageToDisc(fileName, makeRGBMatrix(grayScale, grayScale, grayScale));
+        float end = System.nanoTime() / 1000000;
+
+        return (end - start) / 1000;
+    }
+
+    public float whiteFilterImageToFile(String fileName) {
+        float start = System.nanoTime() / 1000000;
+        whiteFilterMatrixConstructor();
+        saveConstrucedImageToDisc(fileName, makeRGBMatrix(whiteFilter, whiteFilter, whiteFilter));
+        float end = System.nanoTime() / 1000000;
+
+        return (end - start) / 1000;
+    }
+
+
 }

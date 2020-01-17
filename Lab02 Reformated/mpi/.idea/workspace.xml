@@ -2,49 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cdeab10-6580-4acd-9da2-12ab6385fbef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1920x1080.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/1920x1080.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/100x133.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/1920x1080.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab10Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab10Python/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadsJava/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ThreadsJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsJava/data/gray_img1280x733.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsJava/data/gray_img2048x1174.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsJava/data/gray_img640x336.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsJava/out/production/ThreadsJava/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsJava/out/production/ThreadsJava/Console.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsJava/out/production/ThreadsJava/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsJava/out/production/ThreadsJava/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsJava/out/production/ThreadsJava/ThreadBlur.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsJava/out/production/ThreadsJava/ThreadGreyScale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsJava/src/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsJava/src/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsJava/src/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsJava/src/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsJava/src/ThreadBlur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsJava/src/ThreadGreyScale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsJava/src/GreyScaleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/animal-beagle-canine-2048x1174.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/pexels-photo-1280x733.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/pexels-photo-640x336.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/1200x56.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/100x133.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/1200x56.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/test2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/100x133.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/model/1200x56.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/auditFinal.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/auditIntermediar.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/out/production/paralel/Task01/Audit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/out/production/paralel/Task01/BankAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/out/production/paralel/Task01/BankAccountInstance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/out/production/paralel/Task01/Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/out/production/paralel/Task01/ThreadOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/out/production/paralel/Task01/TransferOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/out/production/paralel/Task01/requirments01.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/out/production/paralel/Task01/threadNames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/out/production/paralel/Task01/utils/socaci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/out/production/paralel/Task01/utils/utils-links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/paralel.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/src/Task01/Audit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/src/Task01/BankAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/src/Task01/BankAccountInstance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/src/Task01/Operation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/src/Task01/ThreadOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/src/Task01/TransferOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/src/Task01/requirments01.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/src/Task01/threadNames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/src/Task01/utils/socaci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../paralel/src/Task01/utils/utils-links.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,12 +29,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
+        <entry file="file://$PROJECT_DIR$/model/image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="67" column="42" lean-forward="true" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+            <state relative-caret-position="782">
+              <caret line="97" column="124" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="124" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,15 +73,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mpi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mpi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpi" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -198,16 +187,18 @@
       <workItem from="1579103025257" duration="10500000" />
       <workItem from="1579169139142" duration="3883000" />
       <workItem from="1579217523157" duration="5464000" />
+      <workItem from="1579224438351" duration="1011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20647000" />
+    <option name="totallyTimeSpent" value="21658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -276,31 +267,17 @@
     <entry file="file://$PROJECT_DIR$/model/test2.jpggrayscale.jpg" />
     <entry file="file://$PROJECT_DIR$/model/grayscale.jpg" />
     <entry file="file://$PROJECT_DIR$/model/jpggrayscale.jpg" />
-    <entry file="file://$PROJECT_DIR$/model/test2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model/test2.jpg" />
     <entry file="file://$PROJECT_DIR$/model/test2grayscale.jpg" />
-    <entry file="file://$PROJECT_DIR$/model/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model/test.jpg" />
     <entry file="file://$PROJECT_DIR$/model/test2white.jpg" />
     <entry file="file://$PROJECT_DIR$/model/testgrayscale.jpg" />
     <entry file="file://$PROJECT_DIR$/model/testwhite.jpg" />
-    <entry file="file://$PROJECT_DIR$/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.grayscale.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/test.grayscale.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/testgrayscale.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.jpg" />
+    <entry file="file://$PROJECT_DIR$/test2.jpg" />
+    <entry file="file://$PROJECT_DIR$/test.grayscale.jpg" />
+    <entry file="file://$PROJECT_DIR$/results/test.grayscale.jpg" />
+    <entry file="file://$PROJECT_DIR$/results/testgrayscale.jpg" />
     <entry file="file://$PROJECT_DIR$/images/1200x56.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -334,16 +311,6 @@
     <entry file="file://$PROJECT_DIR$/results/1920x1080white.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="97" column="124" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="124" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -353,10 +320,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="67" column="42" lean-forward="true" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+        <state relative-caret-position="229">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="97" column="124" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="124" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
