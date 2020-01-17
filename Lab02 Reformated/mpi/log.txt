@@ -1,0 +1,15 @@
+FOR LINIAR RUN:(liniar run of python image.py):
+--log
+Time for grayscale:  0.022195147999999998  for the height  133   for the width  100
+Time for white filter:  0.02027028799999997  for the height  133   for the width  100
+Time for grayscale:  1.065781929  for the height  546   for the width  1200
+Time for white filter:  0.9515974280000001  for the height  546   for the width  1200
+Time for grayscale:  3.4570429200000006  for the height  1080   for the width  1920
+Time for white filter:  2.9107866960000006  for the height  1080   for the width  1920
+---log for mpi with 5 nodes
+Time for grayscale:  0.0059957360000000015  for the height  133   for the width  100
+Time for white filter :  0.007373662999999975  for the height  133   for the width  100
+Time for grayscale:  0.39313917000000004  for the height  546   for the width  1200
+Time for white filter :  0.26888574  for the height  546   for the width  1200
+Time for grayscale:  1.261933202  for the height  1080   for the width  1920
+Time for white filter :  0.857270368  for the height  1080   for the width  1920
