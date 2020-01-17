@@ -117,8 +117,8 @@ public class Image {
         float start = System.nanoTime() / 1000000;
         grayScaleMatrixConstructor();
         saveConstrucedImageToDisc(fileName, makeRGBMatrix(grayScale, grayScale, grayScale));
+        System.out.println(makeRGBMatrix(grayScale, grayScale, grayScale).toString());
         float end = System.nanoTime() / 1000000;
-
         return (end - start) / 1000;
     }
 
@@ -126,6 +126,7 @@ public class Image {
         float start = System.nanoTime() / 1000000;
         whiteFilterMatrixConstructor();
         saveConstrucedImageToDisc(fileName, makeRGBMatrix(whiteFilter, whiteFilter, whiteFilter));
+        System.out.println(makeRGBMatrix(whiteFilter, whiteFilter, whiteFilter).toString());
         float end = System.nanoTime() / 1000000;
 
         return (end - start) / 1000;

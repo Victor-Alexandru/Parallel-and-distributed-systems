@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Console {
+public class Ui {
     public void run() {
         while (true) {
             printMenu();
@@ -29,25 +29,25 @@ public class Console {
 
     private void grayScale() {
         Image img100x133 = new Image("../data/100x133.jpg");
-        System.out.println("Time for 100x133 is: " + img100x133.saveGrayscaleToFile("./data/gray_img2048x1174"));
+        System.out.println("Time for 100x133 is: " + img100x133.saveGrayscaleToFile("./data/gray_img100x133"));
 
         Image img1200x56 = new Image("../data/1200x56.jpg");
-        System.out.println("Time for 1200x56 is: " + img1200x56.saveGrayscaleToFile("./data/gray_img640x336"));
+        System.out.println("Time for 1200x56 is: " + img1200x56.saveGrayscaleToFile("./data/gray_img1200x56"));
 
         Image img1920x1080 = new Image("../data/1920x1080.jpg");
-        System.out.println("Time for 1920x1080 is: " + img1920x1080.saveGrayscaleToFile("./data/gray_img1280x733"));
+        System.out.println("Time for 1920x1080 is: " + img1920x1080.saveGrayscaleToFile("./data/gray_img1920x1080"));
     }
 
     private void whiteFilter() {
 
         Image img100x133 = new Image("../data/100x133.jpg");
-        System.out.println("Time for 100x133 is: " + img100x133.saveGrayscaleToFile("./data/white_img2048x1174"));
+        System.out.println("Time for 100x133 is: " + img100x133.whiteFilterImageToFile("./data/white_img100x133"));
 
         Image img1200x56 = new Image("../data/1200x56.jpg");
-        System.out.println("Time for 1200x56 is: " + img1200x56.saveGrayscaleToFile("./data/white_img640x336"));
+        System.out.println("Time for 1200x56 is: " + img1200x56.whiteFilterImageToFile("./data/white_img1200x56"));
 
         Image img1920x1080 = new Image("../data/1920x1080.jpg");
-        System.out.println("Time for 1920x1080 is: " + img1920x1080.saveGrayscaleToFile("./data/white_img1280x733"));
+        System.out.println("Time for 1920x1080 is: " + img1920x1080.whiteFilterImageToFile("./data/white_img1920x1080"));
 
 
     }
@@ -55,10 +55,10 @@ public class Console {
 
     private void printMenu() {
         System.out.println();
-        System.out.println("Choose which image filter do you want to apply:");
-        System.out.println("1) Gaussian Blur");
-        System.out.println("2) Gray scale");
-        System.out.println("0) Exit");
+        System.out.println("----------------------------------");
+        System.out.println("1. White filter");
+        System.out.println("2. Gray scale");
+        System.out.println("0. Exit");
         System.out.print("Your choice: ");
         System.out.println();
     }

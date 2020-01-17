@@ -20,11 +20,10 @@ public class WhiteFilterRunnable implements Runnable {
     @Override
     public void run() {
         for (int j = 0; j < width; j++) {
-            int sum = (int) (redValues[i][j] * 0.200 + greenValues[i][j] * 0.700 + blueValues[i][j] * 0.100);
+            int sum = redValues[i][j] + greenValues[i][j] + (int) (blueValues[i][j] / 3);
             if (sum > 255)
-                whiteFilter[i][j] = 255;
-            else
-                whiteFilter[i][j] = sum;
+                sum = 255;
+            whiteFilter[i][j] = sum;
         }
     }
 }

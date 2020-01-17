@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Console console = new Console();
+        Ui console = new Ui();
         console.run();
     }
 }

@@ -2,17 +2,17 @@ public class GreyScaleRunnable implements Runnable {
     private int width;
     private int i;
 
-    private int[][] r;
-    private int[][] g;
-    private int[][] b;
+    private int[][] redValues;
+    private int[][] greenValues;
+    private int[][] blueValues;
     private int[][] grayScale;
 
     public GreyScaleRunnable(int i, int width, int[][] r, int[][] g, int[][] b, int[][] grayScale) {
         this.i = i;
         this.width = width;
-        this.r = r;
-        this.g = g;
-        this.b = b;
+        this.redValues = r;
+        this.greenValues = g;
+        this.blueValues = b;
         this.grayScale = grayScale;
 
     }
@@ -20,7 +20,7 @@ public class GreyScaleRunnable implements Runnable {
     @Override
     public void run() {
         for (int j = 0; j < width; j++) {
-            int sum = (int) (r[i][j] * 0.299 + g[i][j] * 0.587 + b[i][j] * 0.144);
+            int sum = (int) (redValues[i][j] * 0.299 + greenValues[i][j] * 0.587 + blueValues[i][j] * 0.144);
             if (sum > 255)
                 grayScale[i][j] = 255;
             else
